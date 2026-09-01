@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_CIMV_Core\n Description       : Template for BH_CIMV_Core   \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t28/11/2024\tToan Phan/Phat Truc\tFirst created\n0.0.0.1\t27/12/2024\tToan Phan\tUpdate Graphic\n0.0.0.2\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "25ef9e992fbb13e46210e48a57c063b90ece385fce3f0ce509a3a0faab5f1457",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_ClampOn_ASD_Dialogue\nDescription       :   Template for BH_ClampOn_ASD_Dialogue\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t29/10/2024\tPhat Truc\tFirst created\n0.0.0.1\t4/2/2025\tToan Phan\tFixed CommAlarm logic\n0.0.0.2\t7/2/2025\tToan Phan\tFixed Comm status logic; change the sand rate to ADS tab symbol\n0.0.0.3\t11/02/2025\tPhat Truc\tModified aXes and tagPen properties binding. Bind Sand rate EU to ADS EU\n0.0.0.4\t17/02/2025\tPhat Truc\tChange the height from 600 to 570\n0.0.0.5\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.6\t07/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.7\t14/03/2025\tToan Phan\tUpdated tag path to the associated DSSs (Diagnostic alarms)\n0.0.0.8\t17/04/2025\tPhat Truc\tRemove ConfigurationTabDisabled property\n0.0.0.9\t06/05/2025\tToan Phan\tFixed trend min-max range for sand rate\n0.0.1.0\t10/07/2025\tPhat Truc\tAdjusted dialogue size\n0.0.1.1\t22/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "7e35a412c6efccdb6d3817fb536c7c79c6a850f6ac31608b40e90e30a38ed625",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

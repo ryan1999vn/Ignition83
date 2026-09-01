@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_Discrete_Single_Dialogue\nDescription       :   BH_Discrete_Single_Dialogue\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t12/12/2024\tPhat Truc\tFirst created\n0.0.0.1\t04/02/2025\tPhat Truc\tBinding Discrete Status texts with UDT\n0.0.0.2\t11/02/2025\tPhat Truc\tModified aXes and tagPen properties binding.\n0.0.0.3\t17/02/2025\tPhat Truc\tChange the height from 600 to 570\n0.0.0.4\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.5\t05/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.6\t09/07/2025\tPhat Truc\tAdjusted dialogue size\n0.0.0.7\t22/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "bb1d48434ca7776fbebd2993cab2222763e2e4d9a87c9108c255be579261e015",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

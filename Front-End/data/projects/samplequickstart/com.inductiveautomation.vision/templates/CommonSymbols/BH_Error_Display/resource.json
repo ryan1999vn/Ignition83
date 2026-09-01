@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_Error_Display\n Description       : Template for BH_Error_Display\n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n0.0.0.0\t18/11/2024\tToan Phan\t\tFirst modification\n0.0.0.1 \t27/12/2024\tToan Phan\t\tAdd Hex display and customized text when not found\n0.0.0.2 \t27/02/2025\tToan Phan\t\tAdd the properties CodeFound (to determine if the error code is found in the dataset)\n0.0.0.3\t12/03/2025\tPhat Truc\tTidy up/ add the description for each property",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "163cb480500615b0311df5a3422e0ba001a540c80236bbfe44eea65266abb0b7",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

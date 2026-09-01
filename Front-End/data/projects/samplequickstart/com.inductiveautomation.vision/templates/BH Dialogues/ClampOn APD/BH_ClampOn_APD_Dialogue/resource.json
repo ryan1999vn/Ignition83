@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_ClampOn_APD_Dialogue\n Description       :  ClampOn APD Dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t04/02/2025\tPhat Truc\tFirst created\n0.0.0.1\t03/03/2025\tPhat Truc\tModify Comms Status logic. Binding ResetCount tagPath\n0.0.0.2\t04/03/2025\tPhat Truc\tModify PIGAlarm_tagPath binding\n0.0.0.3\t07/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.4\t22/08/2025\tToan Phan\tUpdated binding for PLCCommsFail\n0.0.0.5\t27/08/2025\tPhat Truc\tSet Extendable to False",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "6fb634b248a900b88685f8984ff39ecf3d3c1cc3310c0eeda43d701efdbf05eb",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "dataType": "String",
+    "defaultValue": "MCS",
+    "name": "AreaName",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  }
+]

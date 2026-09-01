@@ -1,0 +1,42 @@
+[
+  {
+    "enabled": true,
+    "name": "WellStatus",
+    "parameters": {
+      "DCName": {
+        "dataType": "String",
+        "value": "DC1"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": ""
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI04"
+      },
+      "ObjectName": {
+        "dataType": "String",
+        "value": "WellStatus"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "WellStatus_OPC"
+  }
+]

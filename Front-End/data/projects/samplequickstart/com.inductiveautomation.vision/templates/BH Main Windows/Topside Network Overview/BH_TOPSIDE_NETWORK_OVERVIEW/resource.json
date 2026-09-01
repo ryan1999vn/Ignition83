@@ -1,0 +1,17 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t14/02/2025\tK. Kravchuk\tFirst created",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin"
+  ],
+  "attributes": {
+    "lastModificationSignature": "71a802dbdd0ed7326bccadd9a0dadba3c0477be5026d926bf738043eff0f005c",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

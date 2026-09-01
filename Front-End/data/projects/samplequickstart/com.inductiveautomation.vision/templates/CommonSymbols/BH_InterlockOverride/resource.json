@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         :  BH_InterlockOverride\n Description       : BH_InterlockOverride\n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n 0.0.0.0\t19/11/2024\tToan Phan\t\tFirst modification\n 0.0.0.1\t14/1/2025\tToan Phan\t\tMove Override Mask Table to external property. Update the logic to disable/ enable override button\n 0.0.0.2\t19/1/2025\tToan Phan\t\tAdd Event log function when selecting OverrideInterlock button\n0.0.0.3\t11/03/2025\tToan Phan\t\tFixed the event tag path  when selecting OverrideInterlock button (to allow the event querr)\n0.0.0.4\t12/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.5\t03/07/2025\tToan Phan\tUpdated override mask linking directly to the PLC\n0.0.0.6 \t03/07/2025\tToan Phan\tAdd the logic for function ArrayToInterger to return 0 when the array is None\n0.0.0.7\t23/07/2025\tToan Phan\tResize the dialogue to fit size M",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "919a09647e61558c32ee57e5a15f5f771cf70b5d110de476f40d39e4b08edab0",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

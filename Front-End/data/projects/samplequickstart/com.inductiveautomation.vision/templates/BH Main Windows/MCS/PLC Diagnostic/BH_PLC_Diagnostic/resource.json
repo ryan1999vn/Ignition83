@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_PLC_Diagnostic\n Description       :  BH_PLC_Diagnostic\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t08/06/2025\tPhat Truc\tFirst created\n0.0.0.1\t13/06/2025\tPhat Truc\tAdd SNTP data\n0.0.0.2\t20/06/2025\tPhat Truc\tChange screen title to Controller Diagnostics\n0.0.0.3\t24/06/2025\tPhat Truc\tUpdate new template\n0.0.0.4\t26/06/2025\tPhat Truc\tModified MCS_Diagnostic tagpath for controller\n0.0.0.5\t23/07/2025\tToan Phan \tAdded PLCCommsFaild condition\n0.0.0.6\t05/09/2025\tHai Pham\tCorrect syntax",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "2a99421c0418783c963fb58365cc3920b89293f04420dcd898b9ab0a41aea3c3",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

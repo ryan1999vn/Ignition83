@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_HPU_Pump_Dialogue\n Description       :  BH_HPU_Pump_Dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t10/08/2025\tPhat Truc\tFirst created\n 0.0.0.1\t21/08/2025\tPhat Truc\tAdded binding of MinSecurityLevel of Advanced tab to master template",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "15c15959aec4db535c0b21c044841825c8272ea4beb3f93251937b42fb48d57a",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

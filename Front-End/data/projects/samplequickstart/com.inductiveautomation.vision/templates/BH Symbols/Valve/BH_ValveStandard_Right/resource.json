@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_ValveStandard_Right\n Description       :  Template for BH_ValveStandard_Right\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t19/11/2024\tToan Phan\tFirst created\n 0.0.0.1\t10/01/2024\tToan Phan\tUpdate actuator color by LastCommand\n0.0.0.2\t04/02/2025\tPhat Truc\tAdd BH_PopupRectangle template\n0.0.0.3\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.4\t27/05/2025\tPhat Truc\tBinding WorkOver to UDT\n0.0.0.5\t19/06/2025\tPhat Truc\tUpdate font size to 12\n0.0.0.6\t21/08/2025\tPhat Truc\tAdded binding for PLCCommsFail\n0.0.0.7\t05/09/2025\tPhat Truc\tMove ShowName to internal property",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "48e56292f8af4ae50882594a9e5a2c767b9f2213302a3a299e7ca5ddb7f5b2ee",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

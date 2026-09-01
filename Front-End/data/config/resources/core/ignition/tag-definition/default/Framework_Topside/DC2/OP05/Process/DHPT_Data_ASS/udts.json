@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Gauge1_EnggPressure",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Gauge1_P_C.T"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP05.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Gauge1_EnggPressure"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "Gauge1_EnggTemp",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Gauge1_T_C.T"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP05.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Gauge1_EnggTemp"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "Gauge2_EnggPressure",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Gauge2_P_C.T"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP05.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Gauge2_EnggPressure"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "Gauge2_EnggTemp",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Gauge2_T_C.T"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP05.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Gauge2_EnggTemp"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "Gauge3_EnggPressure",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Gauge3_P_C.T"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP05.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Gauge3_EnggPressure"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "Gauge3_EnggTemp",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Gauge3_T_C.T"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP05.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Gauge3_EnggTemp"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "Gauge4_EnggPressure",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Gauge4_P_C.T"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP05.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Gauge4_EnggPressure"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "Gauge4_EnggTemp",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Gauge4_T_C.T"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP05.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Gauge4_EnggTemp"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  }
+]

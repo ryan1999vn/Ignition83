@@ -1,0 +1,34 @@
+[
+  {
+    "dataType": "Float4",
+    "name": "HPC_Interlock_L_Spt",
+    "opcItemPath": "nsu\u003durn:BeckhoffAutomation:Ua:PLC1;s\u003dUMB_01.OP03.HPC_Interlock_L_Spt",
+    "opcServer": "TcOpcUaServer@Controller",
+    "tagType": "AtomicTag",
+    "valueSource": "opc"
+  },
+  {
+    "dataType": "Float4",
+    "name": "HPS_Interlock_L_Spt",
+    "opcItemPath": "nsu\u003durn:BeckhoffAutomation:Ua:PLC1;s\u003dUMB_01.OP03.HPS_Interlock_L_Spt",
+    "opcServer": "TcOpcUaServer@Controller",
+    "tagType": "AtomicTag",
+    "valueSource": "opc"
+  },
+  {
+    "dataType": "Float4",
+    "name": "LPC_Interlock_L_Spt",
+    "opcItemPath": "nsu\u003durn:BeckhoffAutomation:Ua:PLC1;s\u003dUMB_01.OP03.LPC_Interlock_L_Spt",
+    "opcServer": "TcOpcUaServer@Controller",
+    "tagType": "AtomicTag",
+    "valueSource": "opc"
+  },
+  {
+    "dataType": "Float4",
+    "name": "LPS_Interlock_L_Spt",
+    "opcItemPath": "nsu\u003durn:BeckhoffAutomation:Ua:PLC1;s\u003dUMB_01.OP03.LPS_Interlock_L_Spt",
+    "opcServer": "TcOpcUaServer@Controller",
+    "tagType": "AtomicTag",
+    "valueSource": "opc"
+  }
+]

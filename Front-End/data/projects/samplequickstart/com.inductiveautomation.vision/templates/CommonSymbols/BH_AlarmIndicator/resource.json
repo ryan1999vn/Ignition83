@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_AlarmIndicator\n Description       : Template for  BH_AlarmIndicator\n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n 0.0.0.0\t18/11/2024\tToan Phan\t\tFirst modification\n 0.0.0.1\t2/1/2025\tPhat Truc\tModify Padlock\u0027s Visibility\n0.0.0.2\t12/03/2025\tPhat Truc\tTidy up/ add the description for each property",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "021e2d64c3739982f68c90a64c6a5ed8652d54ae5a3b1600a4fddace2bdbcc0c",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

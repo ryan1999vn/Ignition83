@@ -1,0 +1,1480 @@
+[
+  {
+    "name": "ActualVFR",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-DP-CT"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "m3/h"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "ActualVFR"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "DiffPressure",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-DP-CT"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "mBar"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "DiffPressure"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "DisCoefficient",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-DC-CT"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": ""
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "DisCoefficient"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "DPHartStatus_A_Alarm",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 1
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-DPA"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Heathy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "DPHartStatus_A_Alarm"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "DPHartStatus_B_Alarm",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-DPB"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Heathy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "DPHartStatus_B_Alarm"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "FluidDensityInUse",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-DEN-CT"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "kg/m3"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "FluidDensityInUse"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "GasCompressibility",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-GC-CT"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": ""
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "GasCompressibility"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "GasMW",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-MW-CT"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "g/mol"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "GasMW"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "GasSG",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-SG"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": ""
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "GasSG"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "InputVoltage",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-VOL-CT"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "InputVoltage"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "ReynoldsNumber",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-REY"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": ""
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "ReynoldsNumber"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "SensorTemperature",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-TEMP"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "SensorTemperature"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "SpecificHeatCapacity",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-SHC"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "J/(kg*K)"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "SpecificHeatCapacity"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "SSTTemperature",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-SSTTEMP"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "SSTTemperature"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "StandardFluidDensity",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-SDEN"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "kg/ Sm3"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "StandardFluidDensity"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "StaticPressure",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-PRESS"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "StaticPressure"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "StdVFR",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OP03-PT1-Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Sm3/h"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "StdVFR"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Uptime",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-UPTIME"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "s"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Uptime"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Viscosity",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORA": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityOORB": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "SPFM-VIS"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "cP"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP03.SPFM_Data_ADS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Viscosity"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "SPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  }
+]

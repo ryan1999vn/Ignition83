@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Analogue_Tab_Simple_Short\n Description       :  Template for BH_Analogue_Tab_Simple_Short\n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n 0.0.0.0\t18/11/2024\tPhat Truc\t\tFirst create\n0.0.0.1\t14/02/2025\tToan Phan\tChange font size to 12\n0.0.0.2\t12/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.3\t10/06/2025\tToan Phan\tUpdate the logic to show/ hide label; update text color binding",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "56798b7cf8a0392af89cab106c145b4cb86255b8dcdb7a01494503676b7bb48d",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

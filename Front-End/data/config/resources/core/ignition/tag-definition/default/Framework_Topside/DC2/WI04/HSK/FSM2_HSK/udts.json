@@ -1,0 +1,346 @@
+[
+  {
+    "name": "FB1_24V_A",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client.Tag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI04"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "FSM2_HSK.FB1_24V_A"
+      },
+      "TagGroup": {
+        "dataType": "String",
+        "value": "HSK"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "FB1_24V_B",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client.Tag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI04"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "FSM1_HSK.FB1_24V_B"
+      },
+      "TagGroup": {
+        "dataType": "String",
+        "value": "HSK"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "FB2_24V_A",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client.Tag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI04"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "FSM2_HSK.FB2_24V_A"
+      },
+      "TagGroup": {
+        "dataType": "String",
+        "value": "HSK"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "FB2_24V_B",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client.Tag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI04"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "FSM2_HSK.FB2_24V_B"
+      },
+      "TagGroup": {
+        "dataType": "String",
+        "value": "HSK"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "FB3_24V_A",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client.Tag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI04"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "FSM2_HSK.FB3_24V_A"
+      },
+      "TagGroup": {
+        "dataType": "String",
+        "value": "HSK"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "FB3_24V_B",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client.Tag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI04"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "FSM2_HSK.FB3_24V_B"
+      },
+      "TagGroup": {
+        "dataType": "String",
+        "value": "HSK"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "Sens_24V_A",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client.Tag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI04"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "FSM2_HSK.Sens_24V_A"
+      },
+      "TagGroup": {
+        "dataType": "String",
+        "value": "HSK"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "Sens_24V_B",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client.Tag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI04"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "FSM2_HSK.Sens_24V_B"
+      },
+      "TagGroup": {
+        "dataType": "String",
+        "value": "HSK"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  }
+]

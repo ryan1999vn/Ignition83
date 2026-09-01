@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_SCSSV_Dialogue\nDescription       :   Template for BH_SCSSV_Dialogue\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t27/06/2025\tPhat Truc\tFirst created\n0.0.0.1\t02/07/2025\tToan Phan\tAdded profile, Interlock\n0.0.0.2\t03/07/2025\tToan Phan\tChange Interlock tab to bh_Interlock\n0.0.0.3\t04/07/2025\tPhat Truc\tBinding ErrorDataset to UDT, fixed valve profile tag binding\n0.0.0.4\t23/07/2025\tToan Phan\tResize the Interlock Tab\n0.0.0.5\t28/07/2025\tToan Phan\tFix profile DCV SEM Selected, resize to size M\n0.0.0.6\t18/08/2025\tPhat Truc\tConfigured event for Open/close buttons; Fixed IntelockOverideCMD bind\n0.0.0.7\t19/08/2025\tPhat Truc\tAdded ROV lock condition in ItemEnabled of Open and Close buttons\n0.0.0.8\t22/08/2025\tPhat Truc\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "1488bfd297ce2dff396bcb6b54215e430f7a4464905aa02d0b22f576ef6a24df",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

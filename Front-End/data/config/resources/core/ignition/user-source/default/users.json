@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "uuid": "f66946aa-6675-4fe8-888f-395bb32b3e99",
+      "username": "admin",
+      "schedule": "Always",
+      "language": "vi",
+      "password": "[36fbe9e1]4f7588b80729a81a71ac7cdb39a72286ce5de1b2939485cff427c9efe083b9f6",
+      "passwordDate": "20260722.023004682-0700",
+      "passwordHistory": [],
+      "createdDate": "20260722.023004682-0700",
+      "lastModifiedDate": "20260730.013516270-0700",
+      "roles": [
+        "06568248-58a1-4d1d-9012-1f097e52b2c2"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin",
+          "propertyValue": ""
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    },
+    {
+      "uuid": "f71ee4f7-2eba-4372-955a-2f4ddc65083c",
+      "username": "Ryan",
+      "firstName": "",
+      "lastName": "",
+      "schedule": "Always",
+      "description": "",
+      "password": "[D1201098]01ee4b17b5c6b49be90f4c047860c8e6c58bb0b48eb8a173f9c3a480a554dcf8",
+      "passwordDate": "20260730.014351208-0700",
+      "passwordHistory": [],
+      "badge": "",
+      "createdDate": "20260730.014351208-0700",
+      "lastModifiedDate": "20260730.014358738-0700",
+      "roles": [
+        "06568248-58a1-4d1d-9012-1f097e52b2c2"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin",
+          "propertyValue": ""
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    }
+  ],
+  "roles": [
+    {
+      "uuid": "06568248-58a1-4d1d-9012-1f097e52b2c2",
+      "rolename": "Administrator",
+      "createdDate": "20260722.023004682-0700",
+      "lastModifiedDate": "20260730.014358719-0700"
+    }
+  ]
+}

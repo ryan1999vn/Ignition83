@@ -1,0 +1,275 @@
+[
+  {
+    "name": "ShutdownControlASD",
+    "parameters": {
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI04"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ShutdownName": {
+        "dataType": "String",
+        "value": "ShutdownControlASD"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "Shutdown_OPC",
+    "tags": [
+      {
+        "name": "CmdExclude",
+        "tagType": "AtomicTag",
+        "value": false,
+        "valueSource": "opc"
+      },
+      {
+        "name": "CmdReset",
+        "tagType": "AtomicTag",
+        "value": false,
+        "valueSource": "opc"
+      },
+      {
+        "name": "Input",
+        "tagType": "AtomicTag",
+        "value": 1,
+        "valueSource": "opc"
+      },
+      {
+        "name": "Status",
+        "tagType": "AtomicTag",
+        "value": 2,
+        "valueSource": "opc"
+      }
+    ]
+  },
+  {
+    "name": "ShutdownControlCOMMS",
+    "parameters": {
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI04"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ShutdownName": {
+        "dataType": "String",
+        "value": "ShutdownControlCOMMS"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "Shutdown_OPC",
+    "tags": [
+      {
+        "name": "CmdExclude",
+        "tagType": "AtomicTag",
+        "value": false,
+        "valueSource": "opc"
+      },
+      {
+        "name": "CmdReset",
+        "tagType": "AtomicTag",
+        "value": false,
+        "valueSource": "opc"
+      },
+      {
+        "name": "Input",
+        "tagType": "AtomicTag",
+        "value": 1,
+        "valueSource": "opc"
+      },
+      {
+        "name": "Status",
+        "tagType": "AtomicTag",
+        "value": 2,
+        "valueSource": "opc"
+      }
+    ]
+  },
+  {
+    "name": "ShutdownControlESD1",
+    "parameters": {
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI04"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ShutdownName": {
+        "dataType": "String",
+        "value": "ShutdownControlESD1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "Shutdown_OPC",
+    "tags": [
+      {
+        "name": "CmdExclude",
+        "tagType": "AtomicTag",
+        "value": false,
+        "valueSource": "opc"
+      },
+      {
+        "name": "CmdReset",
+        "tagType": "AtomicTag",
+        "value": false,
+        "valueSource": "opc"
+      },
+      {
+        "name": "Input",
+        "tagType": "AtomicTag",
+        "value": 1,
+        "valueSource": "opc"
+      },
+      {
+        "name": "Status",
+        "tagType": "AtomicTag",
+        "value": 2,
+        "valueSource": "opc"
+      }
+    ]
+  },
+  {
+    "name": "ShutdownControlLPLL",
+    "parameters": {
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI04"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ShutdownName": {
+        "dataType": "String",
+        "value": "ShutdownControlLPLL"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "Shutdown_OPC",
+    "tags": [
+      {
+        "name": "CmdExclude",
+        "tagType": "AtomicTag",
+        "value": false,
+        "valueSource": "opc"
+      },
+      {
+        "name": "CmdReset",
+        "tagType": "AtomicTag",
+        "value": false,
+        "valueSource": "opc"
+      },
+      {
+        "name": "Input",
+        "tagType": "AtomicTag",
+        "value": 1,
+        "valueSource": "opc"
+      },
+      {
+        "name": "Status",
+        "tagType": "AtomicTag",
+        "value": 2,
+        "valueSource": "opc"
+      }
+    ]
+  },
+  {
+    "name": "ShutdownWellSetting",
+    "parameters": {
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI04"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ShutdownName": {
+        "dataType": "String",
+        "value": "ShutdownsWellSetting"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "Shutdown_OPC",
+    "tags": [
+      {
+        "name": "CmdExclude",
+        "tagType": "AtomicTag",
+        "value": false,
+        "valueSource": "opc"
+      },
+      {
+        "name": "CmdReset",
+        "tagType": "AtomicTag",
+        "value": false,
+        "valueSource": "opc"
+      }
+    ]
+  }
+]

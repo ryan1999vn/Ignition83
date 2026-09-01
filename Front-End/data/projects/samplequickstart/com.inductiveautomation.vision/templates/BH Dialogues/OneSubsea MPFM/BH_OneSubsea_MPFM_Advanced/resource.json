@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_OneSubsea_MPFM_Advanced\nDescription       :   Template for BH_OneSubsea_MPFM_Advanced\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t30/10/2024\tPhat Truc\tFirst created\n0.0.0.1\t05/02/2025\tK. Kravchuk\tUpdated as per CN\n0.0.0.2\t21/02/2025\tToan Phan\tAdded event functions\n0.0.0.3\t22/028/2025\tToan Phan\tAdded PLCCommsFail parameter and link to radio buttons CommsAlarm",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "8f9fa0cf57b10868b3e549c0098322c403f9008fbbab858174670e6d3e70c9db",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

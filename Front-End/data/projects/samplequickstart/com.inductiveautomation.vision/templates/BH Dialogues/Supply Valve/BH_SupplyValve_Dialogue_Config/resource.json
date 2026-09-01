@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_SupplyValve_Dialogue_Config\n Description       :  Configuration tab of Supply Valve dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t7/1/2025\tPhat Truc\tFirst created\n0.0.0.1\t24/1/2025\tToan Phan\tUpdate the decimal place of duration entries\n0.0.0.2\t4/2/2025\tToan Phan\tMove the selected SEM text (auto mode)\n0.0.0.3\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.4\t06/03/2025\tToan Phan\tTidy up/ add the description for properties\n0.0.0.5\t06/08/2025\tPhat Truc\tHide Label_SEM_selected when comms alarm is active and Auto channel is selected.\n0.0.0.6\t22/08/2025\tToan Phan\tAdded new parameter PLCCommsFail. Update the logic of CommsAlarm of radio buttons and entry boxes to link to this new parameter\n",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "35a865311c55335cb9a0f4368a6c191d26ecd0b4902ad83ca1e2b95938026928",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

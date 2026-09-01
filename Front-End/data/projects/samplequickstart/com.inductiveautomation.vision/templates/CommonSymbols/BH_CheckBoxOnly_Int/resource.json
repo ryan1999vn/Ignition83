@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_CheckBoxOnly_Int\n Description       :  Template for BH_CheckBoxOnly_Int\n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n0.0.0.0\t30/10/2024\t Toan Phan\t\tFirst created\n0.0.0.1\t2/1/2025\tPhat Truc\tAdd Permission message Script\n0.0.0.2\t16/1/2025\tPhat Truc\tChange Checkbox\u0027s background color\n0.0.0.3\t7/2/2025\tToan Phan\tUpdate mosue hover icon\n0.0.0.4\t18/2/2025\tHai Pham\tAdd Log change function\n0.0.0.5\t12/03/2025\tPhat Truc\tTidy up/ add the description for each property. Add scripts to prevent double-click action and right-click action\n0.0.0.6\t16/06/2025\tPhat Truc\tAdd node control\n0.0.0.7\t30/06/2025\tPhat Truc\tUpdated getPermissionMessage script",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "55680582f7e80ba25a49a089d329976b867780ba3d0af52b5666e3cdc6f77b92",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

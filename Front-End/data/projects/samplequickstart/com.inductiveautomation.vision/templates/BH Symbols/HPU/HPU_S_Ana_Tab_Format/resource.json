@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : HPU_Single_Analogue_PIDFormat\n Description       :   \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t01/05/2025\tM.Abdelgawad\tFirst created\n0.0.0.1\t05/08/2025\tPhat Truc\tModified graphics and linked parameters with UDT",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "b960ae2033d1214d86c1cd7b8239ac5cfa7392121ecd87b18163e5fc978048c1",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

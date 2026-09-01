@@ -1,0 +1,17 @@
+[
+  {
+    "name": "POC-PLC01",
+    "parameters": {
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "PointOfControl_OPC"
+  }
+]

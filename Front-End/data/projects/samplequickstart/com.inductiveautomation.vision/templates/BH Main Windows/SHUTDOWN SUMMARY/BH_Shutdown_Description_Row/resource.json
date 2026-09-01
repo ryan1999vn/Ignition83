@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t12/05/2025\tPhat Truc\tFirst created\n 0.0.0.1\t19/05/2025\tPhat Truc\tAdd rowBackgroundColor",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "379b9ec0e4a6fc1cc200f8fde6b4a50a7c9e3de9cbd3738ac16b2ae13ab00686",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

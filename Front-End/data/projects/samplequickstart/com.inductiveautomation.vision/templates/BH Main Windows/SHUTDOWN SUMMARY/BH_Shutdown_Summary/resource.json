@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t12/05/2025\tPhat Truc\tFirst created\n 0.0.0.1\t16/05/2025\tPhat Truc\tBinding CurrentSecurityLevel\n 0.0.0.2\t16/05/2025\tPhat Truc\tBinding template path based on visibility of DC\n0.0.0.3\t11/06/2025\tPhat Truc\tUpdate time remaining\u0027s visibility based on Shutdownexcluded\n0.0.0.4\t16/06/2025\tPhat Truc \tUpdate Legend\n0.0.0.5\t26/06/2025\tPhat Truc\tChange color of selected tab",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "f62ca6fa5a7e97dc17800ad9c1d7ad991ce71ba21ea5e1a8ac56c74bd891b5e1",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t03/06/2025\tK. Kravchuk/ Toan Phan\tFirst created\n0.0.0.1\t07/06/2025\tToan Phan\tUpdated binding of the navigation dataset for GLM\n0.0.0.2\t13/06/2025\tPhat Truc\tUpdated MCS cabinet field\n0.0.0.3\t19/06/2025\tPhat Truc\tUpdated MCS cabinet field bindings\n0.0.0.4\t26/06/2025\tPhat Truc\tUpdated new Controllers Link Status graphics\n0.0.0.5\t27/06/2025\tPhat truc\tAdded FrontGate1A, FrontGate1B Link status\n0.0.0.6\t11/08/2025\tPhat Truc\tUpdated new LinkStatus template used for VMs and Controller Link Status",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "97a637c7117c8ac463d11e9b26eba8889b7c31e98d987702774c04d3d66ba407",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-07T08:55:59Z"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_Dialogue_Interlocks\n Description       :  Interlock tab of Standard Hydraulic Valve dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t19/11/2024\tToan Phan\tFirst created\n 0.0.0.1\t14/1/2025\tToan Phan\t\tAdd Open/CloseInterlockEnableMask\n0.0.0.2\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.3\t06/03/2025\tToan Phan\tTidy up/ add the description for properties\n0.0.0.4\t25/06/2025\tToan Phan\tUpdate the tag binding to the updated interlock table\n0.0.0.5\t03/07/2025\tToan Phan\tMove to BH Dialogue and make it as an general for valve/ choke/ cimv\n0.0.0.6\t23/07/2025\tToan Phan\tResize the dialogue to fit size M",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "883d0f3b34e347fe81b9f281e652769fec495abb5fa15546dba3c60e790bb934",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

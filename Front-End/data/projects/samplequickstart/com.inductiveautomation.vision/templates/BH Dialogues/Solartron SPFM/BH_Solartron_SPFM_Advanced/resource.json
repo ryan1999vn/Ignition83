@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Solartron_SPFM_Advanced\n Description       :  Advance tab of Solartron SPFM dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t12/12/2024\tToan Phan\tFirst created\n0.0.0.1\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.2\t24/02/2025\tPhat Truc\tAdd Manual Static Pressure Max/Min Eng, Manual Sensor Temperature Max/Min Eng\n0.0.0.3\t25/03/2025\tPhat Truc\tModify message of Checkbox to match the action\n0.0.0.4\t07/08/2025\tPhat Truc\tHide GLFM data if SPFM is WIFM.",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "edb7c2ef5d8857fdcede379d38668e561c1700d5501cc1377a68e095d227fc69",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

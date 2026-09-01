@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : \n Description       :   Template for displaying of the process value in table\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t24/12/2024\tToan Phan\tFirst created\n 0.0.0.1\t18/01/2025\tToan Phan\tRemove EU config-move to UDT\n0.0.0.2\t16/05/2025\tToan Phan\tUpdated script to show the display name in rows\n0.0.0.3\t03/09/2025\tPhat Truc\tAdded Header1, Header2 for dynamic header name",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "d4961ffb32919bae84f907c6ba8818020ce2f89d22e360e24c915d500d8f5739",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

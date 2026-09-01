@@ -1,0 +1,143 @@
+[
+  {
+    "name": "AnalogDualSource",
+    "parameters": {
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "CoreHis"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "AlarmDeadband",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "Alarms_IN",
+        "scaleMode": "Off",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "Alarms_Out",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "AnalogueInputA",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "AnalogueInputB",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "historyProvider": "CoreHis",
+        "name": "AnalogueOutput",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "AnalogueOutputA",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "historyProvider": "CoreHis",
+        "name": "AnalogueOutputB",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "CommsOKA",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "CommsOKB",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "DeadBandDiscrep",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "Discr_Delay",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "ForceVal_InputA",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "ForceVal_InputB",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "H_Alm_Spt",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "HH_Alm_Spt",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "InputDisable",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "InputIsEng",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "L_Alm_Spt",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "LL_Alm_Spt",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "MaxEngValue",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "MaxRawValue",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "MinEngValue",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "MinRawValue",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "SourceSel",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      }
+    ]
+  }
+]

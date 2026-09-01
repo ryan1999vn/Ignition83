@@ -1,0 +1,90 @@
+[
+  {
+    "name": "PIGCount",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01.APD2_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PIGCount"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "enabled": false,
+        "name": "EngUnit",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "RawValue",
+    "parameters": {
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01.APD2_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "RawValue"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "enabled": false,
+        "name": "EngUnit",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "APD2.{SensorName}"
+        }
+      }
+    ]
+  }
+]

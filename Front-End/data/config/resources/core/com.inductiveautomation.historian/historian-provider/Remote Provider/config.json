@@ -1,0 +1,11 @@
+{
+  "profile": {
+    "type": "RemoteHistorian"
+  },
+  "settings": {
+    "historianName": "Sample_SQLite_Database",
+    "maxGroupSize": 0,
+    "serverName": "Ignition-WinDev2407Eval",
+    "storageAllowed": true
+  }
+}

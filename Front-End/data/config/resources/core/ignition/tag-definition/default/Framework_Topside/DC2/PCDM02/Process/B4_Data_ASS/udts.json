@@ -1,0 +1,442 @@
+[
+  {
+    "name": "B4_A_ACInputVoltage",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityL": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityLL": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "ClientTag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching_Data"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "B4_A_ACInputVoltage"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "B4_A_ACOutputVoltage",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityL": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityLL": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "ClientTag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching_Data"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "B4_A_ACOutputVoltage"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "B4_A_GateDriveVoltage",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityL": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityLL": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "ClientTag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching_Data"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "B4_A_GateDriveVoltage"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "B4_A_LoadCurrent",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityL": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityLL": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "ClientTag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "A"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching_Data"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "B4_A_LoadCurrent"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "B4_B_ACInputVoltage",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityL": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityLL": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "ClientTag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching_Data"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "B4_B_ACInputVoltage"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "B4_B_ACOutputVoltage",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityL": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityLL": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "ClientTag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching_Data"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "B4_B_ACOutputVoltage"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "B4_B_GateDriveVoltage",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityL": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityLL": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "ClientTag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching_Data"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "B4_B_GateDriveVoltage"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "B4_B_LoadCurrent",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityL": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityLL": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "ClientTag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "A"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching_Data"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "B4_B_LoadCurrent"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  }
+]

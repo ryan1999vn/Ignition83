@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "trafficlight_yellow.png"
+  ],
+  "attributes": {
+    "width": 16,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "import",
+      "timestamp": "2026-07-22T09:30:28Z"
+    },
+    "size": 373,
+    "lastModificationSignature": "ec81a6308efec36f99601bb75a2a24bd4bbc3a5d5bdb9a11d48539cc82fe58cc",
+    "height": 16
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_SCM_Electrical (Prod XT)\n Description       :   Template for BH_SCM_Electrical (Prod XT)             \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t30/10/2024\tToan Phan\tFirst created\n 0.0.0.1\t26/12/2024\tToan Phan\tReplace template repeater by Device_Value_Table Template\n 0.0.0.2\t10/01/2025\tToan Phan\tAdd show/hide tag function\n0.0.0.3\t23/02/2025\tToan Phan\tUpdate fieldbus control table\n0.0.0.4\t04/03/2025\tToan Phan\tAdd Windows Label",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "80eb2eeb3705057c857e9a2bb695e58819b2f8b50f80d58d2f205d14018066f9",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

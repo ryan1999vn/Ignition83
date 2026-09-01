@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_Fieldbus_SIIS_L2_Dialogue\n Description       :  Fieldbus SIIS L2\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t11/02/2025\tToan Phan\tFirst created\n 0.0.0.1\t17/02/2025\tPhat Truc\tChange the height from 415 to 385\n 0.0.0.2\t19/02/2025\tToan Phan\tAdd event log function\n 0.0.0.3\t10/03/2025\tToan Phan\tTidy up/ add the description for properties\n 0.0.0.4\t14/07/2025\tPhat Truc\tUpdated logic and parameters for only Allow One Channel",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "76e3ce587bdc774cd04cad592f4f881eee0ee93e25ad201c5eb4e80b83e324ad",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_SupplyValve_Dialogue\n Description       :  BH_SupplyValve_Dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t7/1/2025\tPhat Truc\tFirst created\n0.0.0.1\t13/1/2025\tToan Phan\tHide Error boxes when error code \u003d0 0.0.0.1. Add Open/CloseInterlockEnableMask\n0.0.0.2\t11/02/2025\tPhat Truc\tModified aXes and tagPen properties binding. Bind Pressure EU to Actual Pressure ADS EU\n0.0.0.3\t17/02/2025\tPhat Truc\tChange the height from 600 to 570\n0.0.0.4\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.5\t21/02/2025\tToan Phan\tCorrect tagpath of consolidated line pressure override event\n0.0.0.6\t04/03/2025\tPhat Truc\tChange Error\u0027s descriptions based on CN\n0.0.0.7\t06/03/2025\tToan Phan\tTidy up/ add the description for properties\n0.0.0.8\t28/05/2025\tPhat Truc \tBinding WorkOver to UDT\n0.0.0.9\t30/05/2025\tPhat Truc\tAdd Max/Min values for Pressure values\n0.0.1.0\t26/06/2025\tHai Pham\tAdd Error View button\n0.0.1.1\t03/07/2025\tToan Phan\tChange Interlock tab to bh_Interlock\n0.0.1.2\t04/07/2025\tPhat Truc\tBinding ErrorDataset to UDT\n0.0.1.3\t23/07/2025\tPhat Truc\tUpdate the size to M\n0.0.1.4\t22/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "ce08888531cf0f44e9f7dabb08c271ba77422bfe40dd12d913fce147e83b7dab",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

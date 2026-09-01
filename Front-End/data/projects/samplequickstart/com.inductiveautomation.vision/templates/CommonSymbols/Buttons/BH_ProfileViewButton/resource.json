@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_ProfileViewButton\n Description       :  Template for BH_ProfileViewButton\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t07/07/2025\tToan Phan\tFirst create based on the profile view button in the Standard Hydraulic Valve Profile dialogue\n0.0.0.1\t15/08/2025\tToan Phan\tAdded try/except to catch the error when double click in blank area on the openFile dialogue",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "f84f401745f9a82d797ceaf12a18d24cb3ddeddcc250393854894bb20383fd25",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

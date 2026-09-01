@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_CommandButton_Simple\n Description       : \n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n0.0.0.0\t14/05/2025\t Toan Phan\t\tFirst created\n0.0.0.1\t30/06/2025\tPhat Truc\tUpdated getPermissionMessage script",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "738b9d3910babd30511c3210a1e9ff011f9c8d70214d9fffae6b9bd83893f807",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

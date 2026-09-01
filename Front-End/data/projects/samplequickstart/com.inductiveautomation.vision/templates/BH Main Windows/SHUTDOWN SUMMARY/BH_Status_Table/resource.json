@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t12/05/2025\tPhat Truc\tFirst created\n 0.0.0.1\t16/05/2025\tPhat Truc\tBinding CurrentSecurityLevel\n 0.0.0.2\t16/05/2025\tToan Phan\tUpdate the logic in the propertyChange script. Add event description to checkbox and reset button\n 0.0.0.3\t21/05/2025\tPhat Truc\tAdd DCName property and modify event description to checkbox and reset button\n 0.0.0.4\t15/08/2025\tToan Phan\tUpdated script for opening detail page to show correct title",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "2ea8c79ab251f099ae064c46f45c04808211b0fd0f57ed6c73d4cc9979719864",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

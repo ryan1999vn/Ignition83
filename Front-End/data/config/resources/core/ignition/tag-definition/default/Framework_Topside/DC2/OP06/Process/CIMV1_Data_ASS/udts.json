@@ -1,0 +1,586 @@
+[
+  {
+    "name": "ActualPosition",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": ""
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "%"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP06.CIMV1_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "ActualPosition"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "CIMV1.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "AtmospherePress",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": ""
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP06.CIMV1_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "AtmospherePress"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "CIMV1.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "DifferentPressure",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": ""
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP06.CIMV1_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "DifferentPressure"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "CIMV1.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "DownStreamPressure",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": ""
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP06.CIMV1_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "DownStreamPressure"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "CIMV1.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "FlowDP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": ""
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "L/h"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP06.CIMV1_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "FlowDP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "CIMV1.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "FlowPDFM",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": ""
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "L/h"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP06.CIMV1_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "FlowPDFM"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "CIMV1.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "FlowStemPosition",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": ""
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "L/h"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP06.CIMV1_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "FlowStemPosition"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "CIMV1.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "MotorCurrent",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": ""
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "A"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP06.CIMV1_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "MotorCurrent"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "CIMV1.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "OpZeroFlowDiff",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": ""
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP06.CIMV1_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "OpZeroFlowDiff"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "CIMV1.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "SupplyPressure",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": ""
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP06.CIMV1_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "SupplyPressure"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "CIMV1.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "TotalCurrent",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": ""
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "A"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP06.CIMV1_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "TotalCurrent"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "CIMV1.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "UpStreamPressure",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": ""
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP06.CIMV1_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "UpStreamPressure"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "CIMV1.{SensorName}"
+        }
+      }
+    ]
+  }
+]

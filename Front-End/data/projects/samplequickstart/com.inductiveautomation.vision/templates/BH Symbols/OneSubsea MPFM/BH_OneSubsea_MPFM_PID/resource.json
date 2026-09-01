@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_OneSubsea_MPFM_PID\nDescription       :   Template for BH_OneSubsea_MPFM_PID\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t30/10/2024\tPhat Truc\tFirst created\n0.0.0.1 \t04/02/2025\tKiril Kravchuk\tUpdated as per CN\n0.0.0.2\t21/02/2025\tToan Phan\tUpdated HSK Alarm Indicator\n0.0.0.3\t24/02/2025\tPhat Truc\tRemove Label\u0027s binding\n0.0.0.4\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.5\t21/08/2025\tPhat Truc\tAdded binding for PLCCommsFail and Update binding of CommsAlarm",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "93ce8ea5edfc61d2521e96941b3f2a52fefcdd55b9dd5477919a8f5fbcd682be",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

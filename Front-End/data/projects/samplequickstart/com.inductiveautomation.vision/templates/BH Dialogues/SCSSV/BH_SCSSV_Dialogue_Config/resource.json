@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_SCSSV_Dialogue_Config\nDescription       :   Template for BH_SCSSV_Dialogue_Config\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t28/07/2025\tPhat Truc/ Toan Phan\tFirst created\n0.0.0.1\t19/08/2025\tToan Phan\tUpdated event for SEM selection radio buttons\n0.0.0.2\t25/08/2025\tToan Phan\tAdded PLCcommsFail and link to the CommsAlarm of radio buttons and setpoints\n",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "08ae8abd45943acd7eb0229969e8e9b617b2c4f4046c94ca0a969085ac3ecf78",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

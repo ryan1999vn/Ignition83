@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Analogue_Single_Freeze\n Description       :  BH_Analogue_Single_Freeze\n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n 0.0.0.0\t30/10/2024\tPhat Truc/ Toan Phan\tFirst created\n0.0.0.1\t6/1/2025\tPhat Truc\tBinding InputDisabled for Delay setpoint\n0.0.0.2\t24/1/2025\tToan Phan\tModified decimal place of delay and delay elapsed\n0.0.0.3\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.4\t05/03/2025\tPhat Truc\tTidy up/ add the description for each property",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "371a53f6f2057338c898502802fcc130b149280d6923632d0c185d00ac4e9559",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

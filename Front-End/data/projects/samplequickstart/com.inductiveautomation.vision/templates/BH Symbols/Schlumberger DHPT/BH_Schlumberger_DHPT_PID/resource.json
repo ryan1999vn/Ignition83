@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_Schlumberger_DHPT_PID\nDescription       :   Template for BH_Schlumberger_DHPT_PID\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t28/10/2024\tPhat Truc\tFirst created\n0.0.0.1\t04/02/2025\tPhat Truc\tAdd BH_PopupRectangle template\n0.0.0.2\t24/02/2025\tPhat Truc\tRemove Label\u0027s binding\n0.0.0.3\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.4\t21/08/2025\tPhat Truc\tAdded binding for PLCCommsFail and Update binding of CommsAlarm",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "fdd97b15217cda1345e7b5e86f505ce457062329ffa22322833ae0eccc673735",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

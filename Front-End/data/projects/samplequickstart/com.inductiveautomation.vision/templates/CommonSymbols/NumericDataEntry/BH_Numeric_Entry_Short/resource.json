@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Numeric_Entry_Short\n Description       :  Template for BH_Numeric_Entry_Short\n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n0.0.0.0\t2/12/2024\tPhat Truc\t\tFirst created\n0.0.0.1\t2/1/2025\tPhat Truc\tAdd Permission message Script\n0.0.0.2\t15/1/2025\tPhat Truc\tAdd DeadbandEng and deadbandUsed properties\n0.0.0.3\t23/1/2025\tPhat Truc\tAdd openingNumericEntryWindowOnce() script\n0.0.0.4\t06/02/2025\tPhat Truc\tAdd PopupRectangle\n0.0.0.5\t07/02/2025\tPhat Truc\tAdd scripts to prevent double-click action and right-click action\n0.0.0.6\t12/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.7\t16/06/2026\tPhat truc\tAdd node control\n0.0.0.8\t30/06/2025\tPhat Truc\tUpdated getPermissionMessage script",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "5371514f9ed98eeac616e038ee87563a0044b3a66bd0df10ce9d867cc8b04cf2",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

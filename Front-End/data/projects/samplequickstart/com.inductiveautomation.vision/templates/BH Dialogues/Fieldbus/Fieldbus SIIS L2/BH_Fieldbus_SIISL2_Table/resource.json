@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         :  BH_Fieldbus_SIISL2_Table\n Description       :  Table in Fieldbus SIIS L2\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t11/02/2025\tToan Phan\tFirst created\n 0.0.0.1\t19/02/2025\tToan Phan\tAdd event log function, Fixed flying master visibility and text\n 0.0.0.2\t10/03/2025\tToan Phan\tTidy up/ add the description for properties\n 0.0.0.3\t14/07/2025\tPhat Truc\tUpdated logic and parameters for only Allow One Channel",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "692f8e24d7aca860fe7d1972d3656049197959091d96714a1a8efe3fee860fa7",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

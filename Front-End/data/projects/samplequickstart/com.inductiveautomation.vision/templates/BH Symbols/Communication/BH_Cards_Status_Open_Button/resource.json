@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Cards_Status_Open_Button\n Description       :  This button is used in Comms Overview windows to open the SEM cards status popup\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t16/05/2025\tToan Phan\tFirst created\n0.0.0.1\t04/06/2025\tToan Phan\tReplace TagPathDataset by SEMCardsList and folderTagPath",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "1c0026f58b1b5f6e35d1fd51babe5156a83782e3891f3ef5637a80d594e3ba4f",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

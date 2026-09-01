@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_Fieldbus_IWIS_Channel_Comms_Table\n Description      : Table in Fieldbus IWIS dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t11/02/2025\tToan Phan\tFirst created\n 0.0.0.1\t18/02/2025\tToan Phan\tUpdate the button enable logic\n 0.0.0.2\t19/02/2025\tToan Phan\tAdd event log function\n 0.0.0.3\t10/03/2025\tToan Phan\tTidy up/ add the description for properties",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "d1a25b9bef7f18d44e4f18457862c5bc8ac4fd5f0fd1da1b575a248969e32c05",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

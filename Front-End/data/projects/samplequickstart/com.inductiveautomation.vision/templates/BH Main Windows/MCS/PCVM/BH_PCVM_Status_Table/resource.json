@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_PCVM_Status_Table\n Description       :  BH_PCVM_Status_Table\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t08/06/2025\tPhat Truc\tFirst created\n 0.0.0.1\t17/06/2025\tPhat Truc\tUpdate LinkStatus statusbox\n 0.0.0.2\t20/06/2025\tPhat Truc\tChange FreeHDD_C, FreeHDD_D, FreeRAM to Double data type\n 0.0.0.3\t11/05/2025\tToan Phan\tAdded comms alarm to boxes",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "a80d435bcaa9dee2b8a4f6ccfa09459fecd486738240eaf4683328fe7e82fb2d",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

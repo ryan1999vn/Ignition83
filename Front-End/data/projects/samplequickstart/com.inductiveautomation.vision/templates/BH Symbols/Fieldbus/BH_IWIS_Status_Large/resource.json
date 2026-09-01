@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_IWIS_Status_Large\n Description       :  Template for BH_IWIS_Status_Large\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t25/11/2024\tToan Phan\tFirst created\n 0.0.0.1\t24/02/2025\tToan Phan\tUpdate comms alarm logic to based on the card IF comms status\n0.0.0.2\t25/02/2025\tToan Phan\tUpdate logic for online/offline status\n0.0.0.3\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.4 \t21/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "859fec23e89f3b3ad44dc686f8719a7e59a17ffc199d8778ca3fde1c500abe78",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

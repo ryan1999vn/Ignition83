@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_CIMVDialogue_Advanced\n Description       : Advanced tab of Skoflo CIMV dialogue              \n Revision History  :\n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t24/10/2024\tToan Phan\tFirst created\n0.0.0.1\t7/2/2025\tToan Phan\tChange actual flow to ADS tab symbol; update status box size\n0.0.0.2\t05/03/2025\tToan Phan\tTidy up/ add the description for each property\n0.0.0.3\t25/08/2025\tToan Phan\tAdded PLCCommsFail \n0.0.0.4\t18/09/2025\tPhat Truc\tAdded properties to hide pressure sensors if not installed",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "4b87012f559e07998d0a0b64e8d5b1ccca4da5f0b737ea9f297978c9c53c40b7",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

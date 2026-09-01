@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_CabHSK_Status_Table\n Description       :  BH_CabHSK_Status_Table\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t23/06/2025\tPhat Truc\tFirst created\n 0.0.0.1\t17/11/2025\tPhat Truc\tModified scripts and add AC_PowerFactor, AC_Frequency to table",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "c4def8bc8a8b4436e009f47b4d2e36f0daa885fbfa60e25301c15b638c3930fc",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_SCSSV_Dialogue_Profile\nDescription       :   Template for BH_SCSSV_Dialogue_Profile\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t02/07/2025\tToan Phan/ Phat Truc\tFirst created\n0.0.0.1\t02/07/2025\tToan Phan\tChange the profile view button to template BH_ProfileViewButton\n0.0.0.2\t28/07/2025\tToan Phan\tModify DCV SEM Selection logic; update the decimal display for the durations\n0.0.0.3\t18/08/2025\tPhat Truc\tAdded binding for CurrentSecurityLevel of ProfileView button; Changed MinSecurityLevel of Flow duration from 2 to 1\n0.0.0.4\t20/08/2025\tToan Phan \tUpdated event log function for profiles enbale/ disable check boxes\n0.0.0.5\t25/08/2025\tToan Phan \tAdded and linked PLCCommsFail to the status boxes and set points",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "c225abbfaf76a47cb9ead868d51e9983bd71a8857fc8bacdf5faca1e107c9714",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

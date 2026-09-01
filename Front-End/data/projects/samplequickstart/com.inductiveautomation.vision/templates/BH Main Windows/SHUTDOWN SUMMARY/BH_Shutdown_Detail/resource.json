@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t12/05/2025\tPhat Truc\tFirst created\n0.0.0.1\t15/05/2025\tPhat Truc\tAutomatically defined tabs when accessing from shutdown summary screen\n0.0.0.2\t19/05/2025\tPhat Truc\tAdd script to dynamically switch template path and tag path based on types of screens\n0.0.0.3\t22/05/2025\tPhat Truc\tAdd script to dynamically bind DCName\n0.0.0.4\t30/05/2025\tPhat Truc\tAdd script to hide unbinded structure.\n0.0.0.5\t16/06/2025\tPhat Truc\tUpdate Legend\n0.0.0.6\t26/06/2025\tPhat Truc\tChange color of selected tab\n0.0.0.7\t04/07/2025\tPhat Truc\tMinor graphic update\n0.0.0.8\t14/08/2025\tToan Phan\tUpdated script of back to summary button to enable forward/backward",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "226cbfca8c9f43a3b290e1b6f437856fb46aac647902d7fb2da0e923f1afa1e0",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

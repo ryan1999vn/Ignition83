@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_PCU\n Description       :   Template for EPU PCU Screen          \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t12/03/2025\tK. Kravchuk\tFirst created\n 0.0.0.1\t06/06/2025\tToan Phan\tUpdated tag binding; rtidy up and update layout\n 0.0.0.2\t18/06/2025\tToan Phan\tAligned the boxes",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "c378bd55e8faddc87b9c812d1c6f3e52baf8b8e2eb558fbcc3befc1ab4f19ad3",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

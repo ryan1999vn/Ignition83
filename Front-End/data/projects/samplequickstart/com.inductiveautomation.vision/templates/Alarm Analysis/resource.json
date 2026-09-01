@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2025 Baker Hughes Company\n File Name         : Alarm_Analysis\n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t08/01/2025\tHai Pham\tFirst created",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "f8967ca2cccedb92318014336f0ab36d38c6f5085dacbe9530a4699de9bde182",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

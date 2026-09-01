@@ -1,0 +1,9 @@
+[
+  {
+    "dataType": "String",
+    "defaultValue": "PCDM02",
+    "name": "StructureName",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  }
+]

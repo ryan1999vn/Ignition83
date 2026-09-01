@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Analogue_Single_AdvancedData\n Description       :  BH_Analogue_Single_AdvancedData\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t30/10/2024\tPhat Truc/ Toan Phan\tFirst created\n0.0.0.1\t06/01/2025\tPhat Truc\tRemove CommsAlarm bindings of Checkbox and Numeric Entry. Update message of manual checkbox\n0.0.0.2\t25/01/2025\tToan Phan\tModified the enable/ diable logic of entry\n0.0.0.3\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.4\t05/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.5\t22/08/2025\tToan Phan\tAdded PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "f23355b95dae9b93e69657e75b0325cbeea6e37dd9ae12b4bc6e7167266705d8",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

@@ -1,0 +1,1107 @@
+[
+  {
+    "name": "Controller_Fault",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 2
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_Fault"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "CommsOK",
+        "sourceTagPath": "[System]Gateway/OPC/Connections/TcOpcUaServer_ControllerB/Connected",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Controller_IOComFault1",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 2
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_IOComFault[1]"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Controller_IOComFault2",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 2
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_IOComFault[2]"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Controller_ModbusSynFault",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_ModbusSynFault"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Controller_PortFault1",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_PortFault[1]"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Controller_PortFault2",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_PortFault[2]"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Controller_PortFault3",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_PortFault[3]"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Controller_PortFault4",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_PortFault[4]"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Controller_PortFault5",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_PortFault[5]"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Controller_PortFault6",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_PortFault[6]"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Controller_PortFault7",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_PortFault[7]"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Controller_PortFault8",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_PortFault[8]"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Controller_PortFault9",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_PortFault[9]"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Controller_PortFault10",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_PortFault[10]"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Controller_PortFault11",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_PortFault[11]"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Controller_PortFault12",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_PortFault[12]"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "CPU_Temperature",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CPU_Temperature"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "CPU_Usage",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "%"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CPU_Usage"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "MB_Temperature",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "MB_Temperature"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "MEM_Usage",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "%"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@ControllerB"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IPCDiagData_OPC"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "MEM_Usage"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  }
+]

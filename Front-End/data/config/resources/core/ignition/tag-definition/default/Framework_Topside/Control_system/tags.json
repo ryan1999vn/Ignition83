@@ -1,0 +1,34 @@
+[
+  {
+    "dataType": "BooleanArray",
+    "name": "GlobalAdministratorOpenOverrideMask",
+    "opcItemPath": "nsu\u003durn:BeckhoffAutomation:Ua:PLC1;s\u003dGeneral.GlobalAdministratorOpenOverrideMask",
+    "opcServer": "TcOpcUaServer@Controller",
+    "tagType": "AtomicTag",
+    "valueSource": "opc"
+  },
+  {
+    "dataType": "BooleanArray",
+    "name": "GlobalEngineerOpenOverrideMask",
+    "opcItemPath": "nsu\u003durn:BeckhoffAutomation:Ua:PLC1;s\u003dGeneral.GlobalEngineerOpenOverrideMask",
+    "opcServer": "TcOpcUaServer@Controller",
+    "tagType": "AtomicTag",
+    "valueSource": "opc"
+  },
+  {
+    "dataType": "BooleanArray",
+    "name": "GlobalOperatorOpenOverrideMask",
+    "opcItemPath": "nsu\u003durn:BeckhoffAutomation:Ua:PLC1;s\u003dGeneral.GlobalOperatorOpenOverrideMask",
+    "opcServer": "TcOpcUaServer@Controller",
+    "tagType": "AtomicTag",
+    "valueSource": "opc"
+  },
+  {
+    "dataType": "Int4",
+    "name": "PLC_Build_Number",
+    "opcItemPath": "nsu\u003durn:BeckhoffAutomation:Ua:PLC1;s\u003dGeneral.Software_Build_Number",
+    "opcServer": "TcOpcUaServer@Controller",
+    "tagType": "AtomicTag",
+    "valueSource": "opc"
+  }
+]

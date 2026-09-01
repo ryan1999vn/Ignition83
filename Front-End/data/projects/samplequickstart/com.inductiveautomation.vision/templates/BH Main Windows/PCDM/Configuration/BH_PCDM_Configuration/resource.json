@@ -1,0 +1,17 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_PCDM_Configuration\n Description       :   Template for PCDM Configuration\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t05/09/2025\tPhat Truc\tFirst created\n 0.0.0.1\t11/11/2025\tPhat Truc\tModified scripts for dynamic PCDMs",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin"
+  ],
+  "attributes": {
+    "lastModificationSignature": "0879970a8a53f88fa59c20576d1a9cd0598c857cab434f1d333131376aff9d1a",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

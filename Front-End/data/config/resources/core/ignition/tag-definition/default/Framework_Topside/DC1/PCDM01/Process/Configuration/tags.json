@@ -1,0 +1,50 @@
+[
+  {
+    "defaultValue": 1,
+    "name": "A1_SelectedTag",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  },
+  {
+    "defaultValue": 2,
+    "name": "A2_SelectedTag",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  },
+  {
+    "defaultValue": 5,
+    "name": "A3_SelectedTag",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  },
+  {
+    "defaultValue": 4,
+    "name": "A4_SelectedTag",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  },
+  {
+    "defaultValue": 6,
+    "name": "B1_SelectedTag",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  },
+  {
+    "defaultValue": 3,
+    "name": "B2_SelectedTag",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  },
+  {
+    "defaultValue": 6,
+    "name": "B3_SelectedTag",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  },
+  {
+    "defaultValue": 0,
+    "name": "B4_SelectedTag",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  }
+]

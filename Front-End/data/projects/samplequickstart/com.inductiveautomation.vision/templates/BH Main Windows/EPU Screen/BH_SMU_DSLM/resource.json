@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_SMU_DSLM\n Description       :   Template for EPU SMU (DSLM) Screen         \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t12/03/2025\tK. Kravchuk\tFirst created\n 0.0.0.1\t06/06/2025\tToan Phan\tUpdated tag binding; rtidy up and update layout\n 0.0.0.2\t18/06/2025\tToan Phan\tAligned the boxes\n 0.0.0.3\t26/08/2025\tToan Phan\tUpdated using new tables\n 0.0.0.4\t27/08/2025\tToan Phan\tLinked table\u0027s SMUFolderTagpath parameter",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "dc3628b5b67191a50f71f80bb95c4957e03358a705f354381f4d81e8f954073b",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

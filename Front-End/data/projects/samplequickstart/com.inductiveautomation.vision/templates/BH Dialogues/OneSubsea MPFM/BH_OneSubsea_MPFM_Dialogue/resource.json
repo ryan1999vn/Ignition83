@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_OneSubsea_MPFM_Dialogue\nDescription       :   Template for BH_OneSubsea_MPFM_Dialogue\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t30/10/2024\tPhat Truc\tFirst created\n0.0.0.1\t06/02/2025\tK. Kravchuk\tUpdate as per CN\n0.0.0.2\t21/02/2025\tToan Phan\tupdate the event function, correct the tag path; update comms status indicator\n0.0.0.3\t25/02/2025\tToan Phan\tUpdate the tag path to Mix velocity at throat\n0.0.0.4\t28/02/2025\tK. Kravchuk\tUpdate the tag link for FC_Connected\n0.0.0.5\t18/07/2025\tPhat Truc\tChange EU_MassFlowRate from kg/h to kg/d\n0.0.0.6\t22/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "db37a74f87aa17121c6e7f42cb1874cecbc80b6e8d1c20177295476f304072a8",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

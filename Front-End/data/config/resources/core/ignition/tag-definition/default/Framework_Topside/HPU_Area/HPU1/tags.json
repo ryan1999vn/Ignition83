@@ -1,0 +1,9 @@
+[
+  {
+    "dataType": "String",
+    "defaultValue": "HPU",
+    "name": "HPUName",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  }
+]

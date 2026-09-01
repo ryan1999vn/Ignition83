@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_EPCM\n Description       :   Template for EPU EPCM Screen             \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t12/03/2025\tK. Kravchuk\tFirst created\n 0.0.0.1\t06/06/2025\tToan Phan\tUpdated tag binding; rtidy up and update layout\n 0.0.0.2\t11/06/2025\tPhat Truc\tUpdated layout of status box\n 0.0.0.3\t18/06/2025\tToan Phan\tAligned the boxes",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "bde60c19139d0b6561926fb287ca3e4a7813839b67a29f5849a192d7b1fff7d0",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

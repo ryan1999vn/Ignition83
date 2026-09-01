@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Canbus_Status_Large\n Description       :  Template for BH_Canbus_Status_Large\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t25/11/2024\tToan Phan\tFirst created\n0.0.0.1\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.2 \t21/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "220b2551419a7a65ba02123bc98431d7627f69fa710d0b258134a5bc15f25134",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

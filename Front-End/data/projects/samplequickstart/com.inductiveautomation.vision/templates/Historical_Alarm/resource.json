@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2025 Baker Hughes Company\n File Name         : Historical_Alarm\n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t08/01/2025\tHai Pham\tFirst created\n0.0.0.1\t29/05/2025\tToan Phan\tBind Sidebar dataset with AlarmEventSideBar tag\n0.0.0.2\t06/06/2025\tToan Phan\tTidy up the table\n0.0.0.3\t09/06/2025\tToan Phan\tUpdated Alarm color, update time selections to be automatically selected to the last date; Updated Alarm color; update text color and layout\n0.0.0.4\t12/08/2025\tHai Pham\tUpdated Export Alarms and Alarm State",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "f747f093c3c0597242e9b905d421f46ba2410f8eb28115c90c4c2642e4945052",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

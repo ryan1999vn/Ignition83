@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_GLMNF_SCM_Housekeeping\n Description       :   Template for BH_GLMNF_SCM_Housekeeping\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t16/03/2025\tPhat Truc\tFirst created\n0.0.0.1\t16/05/2025\tToan Phan\tClean up the SEM HSK table as per FDS, replace card voltage table by comms status table",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "c9cd987c7fd99e9fc9dd59599c08adf45c9f99a681cde6ce0a90ecb20e491db5",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

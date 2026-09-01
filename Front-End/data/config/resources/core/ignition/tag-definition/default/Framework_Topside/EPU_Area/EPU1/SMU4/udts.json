@@ -1,0 +1,103 @@
+[
+  {
+    "name": "DSLM1_HSK",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "SMU4.SMU_DSLM1_HSK"
+      },
+      "EPUName": {
+        "dataType": "String",
+        "value": "EPU1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "EPU"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SMU_DSLM_HSK_OPC"
+  },
+  {
+    "name": "DSLM2_HSK",
+    "parameters": {
+      "CardName": {
+        "dataType": "String",
+        "value": "DSLM2"
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "SMU4.SMU_DSLM2_HSK"
+      },
+      "EPUName": {
+        "dataType": "String",
+        "value": "EPU1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "EPU"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SMU_DSLM_HSK_OPC"
+  },
+  {
+    "name": "SMU",
+    "parameters": {
+      "ClientOPName": {
+        "dataType": "String",
+        "value": "EPU1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "EPU1"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SEMOPCItemName": {
+        "dataType": "String",
+        "value": "SMU4.SMU"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "EPU"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "Structure",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      }
+    ]
+  }
+]

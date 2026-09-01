@@ -1,0 +1,35 @@
+[
+  {
+    "alarms": [
+      {
+        "displayPath": "MCS.Controller 1B Fault",
+        "label": "",
+        "mode": "Inequality",
+        "name": "Alarm",
+        "priority": "High",
+        "setpointA": 288.0
+      }
+    ],
+    "dataType": "Int4",
+    "name": "DeviceState",
+    "opcItemPath": "nsu\u003durn:BeckhoffAutomation:Ua:PLC1;i\u003d1301",
+    "opcServer": "TcOpcUaServer@ControllerB",
+    "tagType": "AtomicTag",
+    "valueSource": "opc"
+  },
+  {
+    "dataType": "Int4",
+    "name": "MyDutyState",
+    "opcItemPath": "nsu\u003durn:BeckhoffAutomation:Ua:PLC1;s\u003dRedundancy.SyncStatus.MyDutyState",
+    "opcServer": "TcOpcUaServer@ControllerB",
+    "tagType": "AtomicTag",
+    "valueSource": "opc"
+  },
+  {
+    "dataType": "String",
+    "defaultValue": "Controller1B",
+    "name": "StructureName",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "dataType": "String",
+    "defaultValue": "DC2",
+    "name": "AreaName",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  }
+]

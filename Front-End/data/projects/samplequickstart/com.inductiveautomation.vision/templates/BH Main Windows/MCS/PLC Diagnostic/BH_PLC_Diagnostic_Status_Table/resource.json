@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_PLC_Diagnostic_Status_Table\n Description       :  BH_PLC_Diagnostic_Status_Table\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t08/06/2025\tPhat Truc\tFirst created\n0.0.0.1\t13/06/2025\tPhat Truc\tAdd SNTP data\n0.0.0.2\t16/06/2025\tPhat Truc\tUpdate Data type of memory tags Copyright         : 2025 Baker Hughes Company\n File Name         : BH_PLC_Diagnostic_Status_Table\n Description       :  BH_PLC_Diagnostic_Status_Table\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t08/06/2025\tPhat Truc\tFirst created\n0.0.0.1\t13/06/2025\tPhat Truc\tAdd SNTP data\n0.0.0.2\t16/06/2025\tPhat Truc\tUpdate Data type of memory tags\n0.0.0.3\t24/06/2025\tPhat Truc\tRe-designed the template\n0.0.0.4\t23/07/2025\tToan Phan \tAdded PLCCommsFaild condition\n0.0.0.5\t11/08/2025\tToan Phan \tAdded PLCFault condition",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "1623f7906dc5acd2dacc240c78734e648a5c2cf7cf70dc91ad161eecfcba654a",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

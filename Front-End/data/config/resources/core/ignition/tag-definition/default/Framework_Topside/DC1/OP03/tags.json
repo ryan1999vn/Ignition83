@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Address_SEMA",
+    "sourceTagPath": "[.]Process/SEM/Node_A",
+    "tagType": "AtomicTag",
+    "valueSource": "reference"
+  },
+  {
+    "name": "Address_SEMB",
+    "sourceTagPath": "[.]Process/SEM/Node_B",
+    "tagType": "AtomicTag",
+    "valueSource": "reference"
+  },
+  {
+    "dataType": "String",
+    "defaultValue": "OP03",
+    "name": "StructureName",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  }
+]

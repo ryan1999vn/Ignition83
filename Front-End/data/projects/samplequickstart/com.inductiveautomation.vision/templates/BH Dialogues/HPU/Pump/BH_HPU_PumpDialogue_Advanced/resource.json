@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_HPU_PumpDialogue_Advanced\n Description       :  BH_HPU_PumpDialogue_Advanced\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t10/08/2025\tPhat Truc\tFirst created\n 0.0.0.1\t21/08/2025\tPhat Truc\tChanged MinSecurityLevel of buttons from 1 to 2",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "bde1c145b37ab10b6cbd4bc365dce5fb02abec81f26f589d16df7698391bad07",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2025 Baker Hughes Company\n File Name         : AdHoc Trend\n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t08/01/2025\tHai Pham\tFirst created\n 0.0.0.1\t02/06/2025\tHai Pham\tModifying script in BD browser, modified side bar display\n 0.0.0.2\t17/06/2025\tHai Pham\tModifying script in Load Graph button\n 0.0.0.3\t18/06/2025\tHai Pham\tFixed the bug when adding pen \n 0.0.0.4\t25/06/2025\tHai Pham\tFixed pen color follow FDS\n 0.0.0.5\t13/08/2025\tHai Pham\tFixed script to apply with all UDTs\n 0.0.0.6\t18/08/2025\tHai Pham/ Toan Phan\tFixed auto axes feature\n 0.0.0.7\t21/08/2025\tHai Pham\tChange type of Min/Max/Avg in ChartPenTable fron Int to Long\n 0.0.0.8\t28/08/2025\tToan Phan\tUpdated function GetDeviceName/ GetStructureName/ GetUDT name to return value after for loop",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "506c7e4415de753a792748832cd0d3aab61c61c59efff7bacd530816fd460013",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

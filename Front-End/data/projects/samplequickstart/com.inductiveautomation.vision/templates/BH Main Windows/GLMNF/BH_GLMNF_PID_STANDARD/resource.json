@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_GLMNF_PID_STANDARD\n Description       :   Template for Gas Lift Manifold P\u0026ID\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t18/12/2024\tPhat Truc\tFirst created\n 0.0.0.1\t28/05/2024\tPhat Truc\tImplement XT Mode graphics and Workover Mode binding",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "28c104eb789c92d0d302dbae29d910772d51979ad52757010a66e6ce907ea57e",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

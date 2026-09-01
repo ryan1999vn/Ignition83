@@ -1,0 +1,65 @@
+[
+  {
+    "name": "PIGAlarm",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "PIGAlarm-ClientTag"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01.APD2_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PIGAlarm"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "APD2.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  }
+]

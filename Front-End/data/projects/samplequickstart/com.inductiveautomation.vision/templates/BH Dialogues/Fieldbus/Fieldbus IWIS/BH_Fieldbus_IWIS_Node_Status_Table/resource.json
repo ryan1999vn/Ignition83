@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_Fieldbus_IWIS_Node_Status_Table\n Description       :  Node status table in the Fieldbus IWIS dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t11/02/2025\tToan Phan\tFirst created\n 0.0.0.1\t18/02/2025\tToan Phan\tUpdate the button enable logic\n 0.0.0.2\t19/02/2025\tToan Phan\tAdd event log function\n 0.0.0.3\t24/02/2024\tToan Phan\tIncrease the lenght of node status box to accomodate for On scan w Bad comms\n 0.0.0.4\t10/03/2025\tToan Phan\tTidy up/ add the description for properties",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "cbdbf5cdd6840d86cb5db0d9919b6ce54f3854eebe008e84869c4a7403321f18",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

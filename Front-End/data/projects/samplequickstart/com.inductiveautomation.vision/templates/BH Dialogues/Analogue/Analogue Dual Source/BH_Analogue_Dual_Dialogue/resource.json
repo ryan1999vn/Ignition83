@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Analogue_Dual_Dialogue\n Description       :  Analogue Dual Source dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t18/11/2024\tPhat Truc/ Toan Phan\tFirst created\n0.0.0.1\t2/1/2025\tPhat Truc\tModified DiscrepancyAlmExist binding\n0.0.0.2\t17/1/2025\tToan Phan\tBind Eng Unit\n0.0.0.3\t15/1/2025\tPhat Truc\tAdd Deadband property\n0.0.0.4\t03/02/2025\tPhat Truc\tAdd InputIsEng property; Fixed the comms alarm logic for Auto Channel Selection; Show INV on arbitrated bar\n0.0.0.5\t07/02/2025\tPhat Truc\tBinding OORA_AlmActive and OORB_AlmActive to Advanced tab\n0.0.0.6\t10/02/2025\tPhat Truc\tModified aXes and tagPen properties binding.\n0.0.0.7\t17/02/2025\tPhat Truc\tChange the height from 600 to 570\n0.0.0.8\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.9\t03/03/2025\tToan Phan\tTidy up/ add the description for each property\n0.0.1.0\t11/04/2025\tPhat Truc\tChange AlarmPriorityINV\u0027s binding of bar indicator \n0.0.1.1\t01/07/2025\tPhat Truc\tAdjusted dialogue size\n0.0.1.2.\t14/08/2025\tPhat Truc\tAdded custom properties and modified AlarmSeverity binding of BarIndicator_Group1\n0.0.1.3\t22/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "011f6371857dca33a0dbc6f1b00fa31c248edf5cf91c766e03325ab2f7b89b9c",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

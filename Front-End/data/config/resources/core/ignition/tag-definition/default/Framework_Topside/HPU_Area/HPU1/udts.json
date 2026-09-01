@@ -1,0 +1,1259 @@
+[
+  {
+    "name": "ABV_Header",
+    "parameters": {
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "ABV_Header"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUABV_OPC"
+  },
+  {
+    "name": "ABV_Suction",
+    "parameters": {
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "ABV_Suction"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUABV_OPC"
+  },
+  {
+    "name": "Housekeeping",
+    "parameters": {
+      "HousekeepingName": {
+        "dataType": "String",
+        "value": "Housekeeping"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUHsk_OPC",
+    "tags": [
+      {
+        "name": "CPUA_KeySwPos",
+        "tagType": "AtomicTag",
+        "value": 3
+      },
+      {
+        "name": "CPUB_KeySwPos",
+        "tagType": "AtomicTag",
+        "value": 2
+      },
+      {
+        "name": "Sys_SWVersion",
+        "tagType": "AtomicTag",
+        "value": 111
+      }
+    ]
+  },
+  {
+    "name": "HP_FilterA",
+    "parameters": {
+      "BitPosition": {
+        "dataType": "Integer",
+        "value": 2
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "HP_FilterA"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUFilter_OPC",
+    "tags": [
+      {
+        "dataType": "String",
+        "name": "HPUName",
+        "sourceTagPath": "[.]../HPUName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "HP_FilterB",
+    "parameters": {
+      "BitPosition": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "HP_FilterB"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUFilter_OPC",
+    "tags": [
+      {
+        "dataType": "String",
+        "name": "HPUName",
+        "sourceTagPath": "[.]../HPUName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "HPA",
+    "parameters": {
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "PumpName": {
+        "dataType": "String",
+        "value": "HPA"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUPressPump_OPC",
+    "tags": [
+      {
+        "engHigh": 1000.0,
+        "name": "MaintHours_SP",
+        "tagType": "AtomicTag",
+        "value ": 222.0
+      }
+    ]
+  },
+  {
+    "name": "HPB",
+    "parameters": {
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "PumpName": {
+        "dataType": "String",
+        "value": "HPB"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUPressPump_OPC",
+    "tags": [
+      {
+        "name": "MaintHours_SP",
+        "tagType": "AtomicTag",
+        "value ": 333.0
+      }
+    ]
+  },
+  {
+    "name": "HPPumps_SP",
+    "parameters": {
+      "EngHighPressure": {
+        "dataType": "Float",
+        "value": 1000.0
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "PumpName": {
+        "dataType": "String",
+        "value": "HPPumps_SP"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUPumpsControlSetpoints_OPC",
+    "tags": [
+      {
+        "engHigh": 32767.0,
+        "name": "LL_Stp_TMRSP",
+        "tagType": "AtomicTag"
+      },
+      {
+        "engHigh": 32767.0,
+        "name": "No_Feedback_TMRSP",
+        "tagType": "AtomicTag"
+      },
+      {
+        "engHigh": 1000.0,
+        "engUnit": "ms",
+        "name": "No_Prss_TMRSP",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Stop_SP",
+        "tagType": "AtomicTag",
+        "value ": 888.0
+      }
+    ]
+  },
+  {
+    "name": "HPSupply_SP",
+    "parameters": {
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "PumpName": {
+        "dataType": "String",
+        "value": "HPSupply_SP"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUPTSetpoints_OPC"
+  },
+  {
+    "name": "HPU_Control",
+    "parameters": {
+      "HPUControl": {
+        "dataType": "String",
+        "value": "HPU_Control"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUControl_OPC",
+    "tags": [
+      {
+        "name": "Control",
+        "tagType": "AtomicTag",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "HPU_Status",
+    "parameters": {
+      "HPUStatus": {
+        "dataType": "String",
+        "value": "HPU_Status"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUStatus_OPC"
+  },
+  {
+    "name": "LP_FilterA",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "LP_FilterA"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUFilter_OPC",
+    "tags": [
+      {
+        "dataType": "String",
+        "name": "HPUName",
+        "sourceTagPath": "[.]../HPUName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "LP_FilterB",
+    "parameters": {
+      "BitPosition": {
+        "dataType": "Integer",
+        "value": 1
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "LP_FilterB"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUFilter_OPC",
+    "tags": [
+      {
+        "dataType": "String",
+        "name": "HPUName",
+        "sourceTagPath": "[.]../HPUName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "LPA",
+    "parameters": {
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "PumpName": {
+        "dataType": "String",
+        "value": "LPA"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUPressPump_OPC",
+    "tags": [
+      {
+        "name": "MaintHours_SP",
+        "tagType": "AtomicTag",
+        "valueB": 100.0
+      }
+    ]
+  },
+  {
+    "name": "LPB",
+    "parameters": {
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "PumpName": {
+        "dataType": "String",
+        "value": "LPB"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUPressPump_OPC"
+  },
+  {
+    "name": "LPPumps_SP",
+    "parameters": {
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "PumpName": {
+        "dataType": "String",
+        "value": "LPPumps_SP"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUPumpsControlSetpoints_OPC",
+    "tags": [
+      {
+        "engHigh": 32767.0,
+        "name": "LL_Stp_TMRSP",
+        "tagType": "AtomicTag"
+      },
+      {
+        "engHigh": 32767.0,
+        "name": "No_Feedback_TMRSP",
+        "tagType": "AtomicTag"
+      },
+      {
+        "engHigh": 1000.0,
+        "engUnit": "ms",
+        "name": "No_Prss_TMRSP",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "LPSupply_SP",
+    "parameters": {
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "PumpName": {
+        "dataType": "String",
+        "value": "LPSupply_SP"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUPTSetpoints_OPC"
+  },
+  {
+    "name": "LT1A",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client Tag"
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "LT1A"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "%"
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUAnalogue_OPC"
+  },
+  {
+    "name": "LT1B",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client Tag"
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "LT1B"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "%"
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUAnalogue_OPC"
+  },
+  {
+    "name": "LT2A",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client Tag"
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "LT2A"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "%"
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUAnalogue_OPC"
+  },
+  {
+    "name": "LT2B",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client Tag"
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "LT2B"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "%"
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUAnalogue_OPC"
+  },
+  {
+    "name": "LT3A",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client Tag"
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "LT3A"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "%"
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUAnalogue_OPC"
+  },
+  {
+    "name": "LT3B",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client Tag"
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "LT3B"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "%"
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUAnalogue_OPC",
+    "tags": [
+      {
+        "name": "AnalogueOutput",
+        "tagType": "AtomicTag",
+        "value": 20.0,
+        "valueSource": "opc"
+      }
+    ]
+  },
+  {
+    "name": "PT1A",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "PT1A"
+      },
+      "EngHigh": {
+        "dataType": "Float",
+        "value": 600.0
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Barg"
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUAnalogue_OPC",
+    "tags": [
+      {
+        "name": "Status_Bits",
+        "tagType": "Folder",
+        "tags": [
+          {
+            "name": "HH_Alm",
+            "tagType": "AtomicTag",
+            "value": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "PT1B",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "PT1B"
+      },
+      "EngHigh": {
+        "dataType": "Float",
+        "value": 600.0
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Barg"
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUAnalogue_OPC"
+  },
+  {
+    "name": "PT2A",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "PT2A"
+      },
+      "EngHigh": {
+        "dataType": "Float",
+        "value": 1000.0
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Barg"
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUAnalogue_OPC"
+  },
+  {
+    "name": "PT2B",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "PT2B"
+      },
+      "EngHigh": {
+        "dataType": "Float",
+        "value": 1000.0
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Barg"
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUAnalogue_OPC"
+  },
+  {
+    "name": "PT3A",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "PT3A"
+      },
+      "EngHigh": {
+        "dataType": "Float",
+        "value": 600.0
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Barg"
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUAnalogue_OPC"
+  },
+  {
+    "name": "PT3B",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "PT3B"
+      },
+      "EngHigh": {
+        "dataType": "Float",
+        "value": 600.0
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Barg"
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUAnalogue_OPC"
+  },
+  {
+    "name": "PT4A",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "PT4A"
+      },
+      "EngHigh": {
+        "dataType": "Float",
+        "value": 1000.0
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Barg"
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUAnalogue_OPC"
+  },
+  {
+    "name": "PT4B",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "PT4B"
+      },
+      "EngHigh": {
+        "dataType": "Float",
+        "value": 1000.0
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Barg"
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUAnalogue_OPC"
+  },
+  {
+    "name": "Rec_FilterA",
+    "parameters": {
+      "BitPosition": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "BlockAlarmPriorityLevel": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "Rec_FilterA"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUFilter_OPC",
+    "tags": [
+      {
+        "name": "FilterStatus",
+        "tagType": "AtomicTag",
+        "value": true
+      },
+      {
+        "dataType": "String",
+        "name": "HPUName",
+        "sourceTagPath": "[.]../HPUName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Rec_FilterB",
+    "parameters": {
+      "BitPosition": {
+        "dataType": "Integer",
+        "value": 5
+      },
+      "BlockAlarmPriorityLevel": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "Rec_FilterB"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUFilter_OPC",
+    "tags": [
+      {
+        "dataType": "String",
+        "name": "HPUName",
+        "sourceTagPath": "[.]../HPUName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "RecircPump",
+    "parameters": {
+      "PumpName": {
+        "dataType": "String",
+        "value": "RecircPump"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUCircPump_OPC"
+  },
+  {
+    "name": "ReturnReservoirSP",
+    "parameters": {
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "TankName": {
+        "dataType": "String",
+        "value": "ReturnReservoirSP"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUResTankSetpoints_OPC",
+    "tags": [
+      {
+        "name": "Dev_Deadband_Delay",
+        "tagType": "AtomicTag",
+        "value ": 92.0
+      }
+    ]
+  },
+  {
+    "name": "SS_FilterA",
+    "parameters": {
+      "BitPosition": {
+        "dataType": "Integer",
+        "value": 6
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "SS_FilterA"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUFilter_OPC",
+    "tags": [
+      {
+        "dataType": "String",
+        "name": "HPUName",
+        "sourceTagPath": "[.]../HPUName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "SS_FilterB",
+    "parameters": {
+      "BitPosition": {
+        "dataType": "Integer",
+        "value": 7
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "SS_FilterB"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUFilter_OPC",
+    "tags": [
+      {
+        "dataType": "String",
+        "name": "HPUName",
+        "sourceTagPath": "[.]../HPUName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "SupplyReservoirSP",
+    "parameters": {
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "TankName": {
+        "dataType": "String",
+        "value": "SupplyReservoirSP"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUResTankSetpoints_OPC"
+  },
+  {
+    "name": "TT1",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "DeviceName": {
+        "dataType": "String",
+        "value": "TT1"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "HPU": {
+        "dataType": "String",
+        "value": "HPU"
+      },
+      "HPUOPC": {
+        "dataType": "String",
+        "value": "HPU_OPC"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "HPUAnalogue_OPC"
+  }
+]

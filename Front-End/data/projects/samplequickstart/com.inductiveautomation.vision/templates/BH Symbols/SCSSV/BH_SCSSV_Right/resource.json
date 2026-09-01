@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_SCSSV_Right\nDescription       :   Template for BH_SCSSV_Right\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t27/06/2025\tPhat Truc\tFirst created\n0.0.0.1\t03/07/2025\tPhat Truc\tUpdated binding of ROVLock parameter\n0.0.0.2\t21/08/2025\tPhat Truc\tAdded binding for PLCCommsFail\n0.0.0.3\t05/09/2025\tPhat Truc\tMove ShowName to internal property",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "8685e2eaf4f5ba6aa39833bc8f00855dd02caf9522822d2f206f2bc79899762c",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

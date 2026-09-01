@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t12/05/2025\tPhat Truc\tFirst created\n 0.0.0.1\t16/05/2025\tPhat Truc\tAdd the logic so that the text expression will not run if the cell is hidden. Add RowColor_Even and RowColor_Odd properties",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "f936387803d4dda8b54c02c0823039e0e52a6f174e61befba2c2a9d9ab2db45f",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

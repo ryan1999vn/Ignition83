@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t12/12/2024\tToan Phan\tFirst created\n0.0.0.1\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.2\t22/02/2025\tToan Phan\tCorrect the tag path of Actual VFR\n0.0.0.3\t24/02/2025\tPhat Truc\tBinding Manual Static Pressure Max/Min Eng, Manual Sensor Temperature Max/Min Eng. Config tagPen, aXes Dataset\n0.0.0.4\t07/04/2025\tToan Phan\tUpdate tag path to DP Hart Status DSS\n0.0.0.5\t06/05/2025\tToan Phan\tFixed trend min-max range\n0.0.0.6\t02/06/2025\tPhat Truc\tUpdate tagPen and Axes dataset \n0.0.0.7\t06/06/2025\tToan Phan\tUpdate tag path of HART Status DSS \n0.0.0.8\t10/07/2025\tPhat Truc\tAdjusted dialogue size\n0.0.0.9\t22/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "9af46199aa2a3d810398fc7ee4dca92a73b983f50cc59300071ee15aba76a37e",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

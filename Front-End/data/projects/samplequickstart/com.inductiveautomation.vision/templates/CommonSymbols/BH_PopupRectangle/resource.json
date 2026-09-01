@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_PopupRectangle\n Description       :  Template for BH_PopupRectangle\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t24/01/2025\tPhat Truc\tFirst created\n 0.0.0.1\t06/02/2025\tToan Phan\tAdd cursor effectt when mouse hover\n 0.0.0.2\t07/02/2025\tPhat Truc\tAdd scripts to prevent double-click action and right-click action\n0.0.0.3\t12/03/2025\tPhat Truc\tTidy up/ add the description for each property",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "fbf82a0c4928561048b6db3eb518dc454b0c7c0f6e603251a342ea24ada2529c",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-10T06:35:41Z"
+    }
+  }
+}

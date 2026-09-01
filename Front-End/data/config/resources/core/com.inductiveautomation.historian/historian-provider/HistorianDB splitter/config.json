@@ -1,0 +1,14 @@
+{
+  "profile": {
+    "type": "HistorySplitter"
+  },
+  "settings": {
+    "primaryHistorian": "HistorianDB",
+    "queryLimit": {
+      "enabled": true,
+      "size": 1,
+      "units": "MONTH"
+    },
+    "secondaryHistorian": "Sample_SQLite_Database"
+  }
+}

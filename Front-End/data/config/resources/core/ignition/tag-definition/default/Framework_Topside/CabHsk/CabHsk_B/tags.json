@@ -1,0 +1,9 @@
+[
+  {
+    "dataType": "String",
+    "defaultValue": "CabinetB",
+    "name": "StructureName",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  }
+]

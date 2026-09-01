@@ -1,0 +1,26 @@
+[
+  {
+    "dataType": "Boolean",
+    "name": "CommsOK_A",
+    "opcItemPath": "nsu\u003durn:BeckhoffAutomation:Ua:PLC1;s\u003dUMB_01.PCDM01.PCDM_PowerSwitching.CommsOK_A",
+    "opcServer": "TcOpcUaServer@Controller",
+    "tagType": "AtomicTag",
+    "valueSource": "opc"
+  },
+  {
+    "dataType": "Boolean",
+    "name": "CommsOK_B",
+    "opcItemPath": "nsu\u003durn:BeckhoffAutomation:Ua:PLC1;s\u003dUMB_01.PCDM01.PCDM_PowerSwitching.CommsOK_B",
+    "opcServer": "TcOpcUaServer@Controller",
+    "tagType": "AtomicTag",
+    "valueSource": "opc"
+  },
+  {
+    "name": "SequenceStatus",
+    "opcItemPath": "nsu\u003durn:BeckhoffAutomation:Ua:PLC1;s\u003dUMB_01.PCDM01.PCDM_PowerSwitching.SequenceStatus",
+    "opcServer": "TcOpcUaServer@Controller",
+    "tagType": "AtomicTag",
+    "value": 0,
+    "valueSource": "opc"
+  }
+]

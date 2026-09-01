@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : \n Description       :   Template for PCDM Dislay and Power Switching\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t01/09/2025\tPhat Truc\tFirst created\n0.0.0.1\t04/09/2025\tPhat Truc\tAdded CommsOK_A, CommsOK_B, OnScan_A, OnScan_B\n0.0.0.2\t18/09/2025\tPhat Truc\tAdded Connecting, Disconnecting properties to disable Power button",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "78d4114d7d246b77eefc316bdf6061ea5c5d6761a20778938f29787e06e29dbf",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

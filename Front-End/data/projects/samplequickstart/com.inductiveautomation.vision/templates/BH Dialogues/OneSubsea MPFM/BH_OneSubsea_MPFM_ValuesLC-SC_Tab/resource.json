@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_OneSubsea_MPFM_ValuesLC-SC_Tab\nDescription       :   Template for BH_OneSubsea_MPFM_ValuesLC-SC_Tab\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t30/10/2024\tPhat Truc\tFirst created\n0.0.0.1\t05/02/2025\tK. Kravchuk\tUpdate as per CN\n0.0.0.2\t18/07/2025\tPhat Truc\tChange Gas Oil Ratio SC unit from Sm3/Sm3 to %\n0.0.0.3\t25/08/2025\tToan Phan\tAdded PLCCommsFail and linked to the CommsAlarm of boxes",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "8c395d2464f5b88fae6eacaddbb937dedd8fa6d310f6079cf68c22d11ce28f74",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

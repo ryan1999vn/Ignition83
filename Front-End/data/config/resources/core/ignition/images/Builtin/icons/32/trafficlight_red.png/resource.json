@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "trafficlight_red.png"
+  ],
+  "attributes": {
+    "width": 32,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "import",
+      "timestamp": "2026-07-22T09:30:29Z"
+    },
+    "size": 1304,
+    "lastModificationSignature": "134b1d25ee6a1c7291b550837235070aff3ba2eacb06cb7f6d772aee6b3aaefb",
+    "height": 32
+  }
+}

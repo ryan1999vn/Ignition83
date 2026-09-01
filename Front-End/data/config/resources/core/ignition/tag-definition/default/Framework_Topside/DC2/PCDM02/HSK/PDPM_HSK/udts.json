@@ -1,0 +1,366 @@
+[
+  {
+    "name": "AbsPress_A",
+    "parameters": {
+      "AlarmPriorityFR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityINV": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityL": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityLL": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client-Tag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PDPM_HSK.AbsPress_A"
+      },
+      "TagGroup": {
+        "dataType": "String",
+        "value": "HSK"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Alarm_Out",
+        "tagType": "Folder",
+        "tags": [
+          {
+            "name": "INV_Alm",
+            "tagType": "AtomicTag",
+            "value": false,
+            "valueSource": "expr"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "AbsPress_B",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityINV": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityL": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityLL": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client-Tag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PDPM_HSK.AbsPress_B"
+      },
+      "TagGroup": {
+        "dataType": "String",
+        "value": "HSK"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "AmbTemp_A",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client-Tag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PDPM_HSK.AmbTemp_A"
+      },
+      "TagGroup": {
+        "dataType": "String",
+        "value": "HSK"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "AmbTemp_B",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client-Tag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PDPM_HSK.AmbTemp_B"
+      },
+      "TagGroup": {
+        "dataType": "String",
+        "value": "HSK"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "Humidity_A",
+    "parameters": {
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client-Tag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "%"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PDPM_HSK.Humidity_A"
+      },
+      "TagGroup": {
+        "dataType": "String",
+        "value": "HSK"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "Humidity_B",
+    "parameters": {
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "Client-Tag"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "%"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PDPM_HSK.Humidity_B"
+      },
+      "TagGroup": {
+        "dataType": "String",
+        "value": "HSK"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  }
+]

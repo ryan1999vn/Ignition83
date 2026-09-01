@@ -1,0 +1,34 @@
+[
+  {
+    "executionMode": "FixedRate",
+    "executionRate": 2000,
+    "expression": "runScript(\"BHAlarmSummary.GetActiveAlarmCount(1,1)\")",
+    "name": "AlarmL1Cnt",
+    "tagType": "AtomicTag",
+    "valueSource": "expr"
+  },
+  {
+    "executionMode": "FixedRate",
+    "executionRate": 2000,
+    "expression": "runScript(\"BHAlarmSummary.GetActiveAlarmCount(2,1)\")",
+    "name": "AlarmL2Cnt",
+    "tagType": "AtomicTag",
+    "valueSource": "expr"
+  },
+  {
+    "executionMode": "FixedRate",
+    "executionRate": 2000,
+    "expression": "runScript(\"BHAlarmSummary.GetActiveAlarmCount(3,1)\")",
+    "name": "AlarmL3Cnt",
+    "tagType": "AtomicTag",
+    "valueSource": "expr"
+  },
+  {
+    "executionMode": "FixedRate",
+    "executionRate": 2000,
+    "expression": "runScript(\"BHAlarmSummary.GetActiveAlarmCount(4,1)\")",
+    "name": "AlarmL4Cnt",
+    "tagType": "AtomicTag",
+    "valueSource": "expr"
+  }
+]

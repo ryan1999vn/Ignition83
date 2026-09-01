@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_ClampOn_ASD_Configuration\nDescription       :   Template for BH_ClampOn_ASD_Configuration\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t29/10/2024\tPhat Truc\tFirst created\n0.0.0.1\t24/01/2025\tToan Phan\tModified the enable disable logic of numeric entries\n0.0.0.2\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.3\t07/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.4\t17/04/2025\tPhat Truc\tHide the Manual Value table when CalcMode \u003d 0 or 1 \n0.0.0.5\t27/05/2025\tPhat Truc\tUpdate MinSecurityLevel of checkboxes",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "9399df6e63e424dbbb46f5e1f35c4e64e828dd172c8420af57e07126550357ba",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

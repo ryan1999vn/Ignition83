@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_Schlumberger_DHPT_Dialogue\nDescription       :   Template for BH_Schlumberger_DHPT_Dialogue\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t25/11/2024\tPhat Truc\tFirst created\n0.0.0.1\t15/01/2025\tPhat Truc\tCorrect Client tag\n0.0.0.2\t11/02/2025\tPhat Truc\tModified aXes and tagPen properties binding. Bind Pressur and Temperature EU to ADS EU\n0.0.0.3\t17/02/2025\tPhat Truc\tChange the height from 600 to 570\n0.0.0.4\t10/03/2025\tPhat Truc\tTidy up/ add the description for properties\n0.0.0.5\t17/04/2025\tPhat Truc\tModify Gauge Value table\u0027s visibility based on number of gauges\n0.0.0.6\t06/05/2025\tToan Phan\tFixed trend min-max range\n0.0.0.7\t08/07/2025\tPhat Truc\tUpdated new Line status template\n0.0.0.8\t10/07/2025\tPhat Truc \tAdjusted dialogue size\n0.0.0.9\t22/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "688d419503b7c54e36e5f70a1c7380fddddff8cac02593dd255a6a5e2c565817",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

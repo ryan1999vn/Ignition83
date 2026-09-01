@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_SCM_Hydraulic (Prod XT)\n Description       :   Template for BH_SCM_Hydraulic (Prod XT)             \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t28/10/2024\tToan Phan\tFirst created\n0.0.0.1\t26/12/2024\tToan Phan\tReplace template repeater by Device_Value_Table Template\n0.0.0.2\t08/01/2025\tToan Phan\tUpdate Supply Valve Symbol\n0.0.0.3\t10/01/2025\tToan Phan\tAdd Show/ Hide tag function\n 0.0.0.4\t04/03/2025\tToan Phan\tAdd Windows Label\n 0.0.0.5\t11/07/2025\tPhat Truc\tAdd interlock L setpoints for supply and consolidated pressure",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "5ae8bb101f34940983e9efd200a5cfc2ac737e084af55fdbeb24588955b6713d",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-10T06:35:46Z"
+    }
+  }
+}

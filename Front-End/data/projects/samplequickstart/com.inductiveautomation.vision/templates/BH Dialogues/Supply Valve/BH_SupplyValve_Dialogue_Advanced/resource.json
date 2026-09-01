@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_SupplyValve_Dialogue_Advanced\n Description       :  Advance tab of Supply Valve dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t7/1/2025\tPhat Truc\tFirst created\n0.0.0.1\t16/1/2025\tPhat Truc\tChange Consolidated Pressure, Supply Pressure symbols to ADS symbols\n0.0.0.2\t12/02/2025\tToan Phan\tRe scale the size of status boxes \n0.0.0.3\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.4\t06/03/2025\tToan Phan\tTidy up/ add the description for properties\n0.0.0.5\t22/08/2025\tToan Phan\tLinked CommsAlarm parameters of Check boxs to Template CommsAlarm",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "f893c96336f69a33827265b73e3461500790db6a7c0088911e2459ee43fa9771",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

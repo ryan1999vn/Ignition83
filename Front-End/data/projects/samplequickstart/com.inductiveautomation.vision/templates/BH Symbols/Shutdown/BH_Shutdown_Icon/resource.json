@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t19/05/2025\tPhat Truc\tFirst created\n0.0.0.1\t28/05/2025\tPhat Truc, Toan Phan\tAdded navigation logic; Update function indicating shutdown active in structure\n0.0.0.2\t29/05/2025\tToan Phan\tAdded logic in properties change event to prevent the error popup while loading\n0.0.0.3\t12/06/2025\tPhat Truc\tUpdate function indicating shutdown acknowledged in structure\n0.0.0.4\t14/08/2025\tToan Phan\tUpdated mouse press event scrip to incated the path correctly on sidebar",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "a67987a984df4d40125224b6d3a98ebe1c30f18dad7abb31a8b684a2db43a84b",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

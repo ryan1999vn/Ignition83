@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_Discrete_Dual_DiscrepancyTab\nDescription       :   Discrepancy tab of Dual Source Discrete dialogue\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t14/02/2025\tPhat Truc\tFirst created\n0.0.0.1\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.2\t06/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.3\t25/08/2025\tToan Phan\tAddded PLCCommsFail and link with checkbox and setpoint box",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "d8914d8873a2ef81360f80fb1a141f64154107afba1d207d195d7adff2b3ed25",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

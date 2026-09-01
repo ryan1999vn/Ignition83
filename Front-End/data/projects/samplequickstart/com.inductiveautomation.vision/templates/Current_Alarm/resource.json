@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2025 Baker Hughes Company\n File Name         : Current_Alarm\n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t08/01/2025\tHai Pham\tFirst created\n0.0.0.1\t15/05/2025\tToan Phan\tUpdated items dataset of treeview\n0.0.0.2\t29/05/2025\tToan Phan\tBind Sidebar dataset with AlarmEventSideBar tag\n0.0.0.3\t06/06/2025\tHai Pham\tAdded advance filter; tidy up the table\n0.0.0.4\t09/06/2025\tToan Phan\tUpdated Alarm color; update text color and layout",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "4ef67a84562417d95bf47b21eef750f4d15a75f17d63ab9022a1497444466ae3",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

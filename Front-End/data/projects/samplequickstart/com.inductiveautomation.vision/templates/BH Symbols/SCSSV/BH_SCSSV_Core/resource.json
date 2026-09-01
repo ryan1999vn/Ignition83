@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_DualActuatorValve_Core\nDescription       :   Template for BH_DualActuatorValve_Core\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t27/06/2025\tPhat Truc\tFirst created\n0.0.0.1\t03/07/2025\tPhat Truc\tUpdated FillStyle of actuator 1 \u0026 actuator 2",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "da1dbc3ff8307cd40bd26477ac8f748a841b2741bcb87ae521abaea8beffe397",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

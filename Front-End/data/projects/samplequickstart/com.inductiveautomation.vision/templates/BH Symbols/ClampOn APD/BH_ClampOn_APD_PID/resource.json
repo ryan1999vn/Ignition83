@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_ClampOn_APD_PID\nDescription       :   Template for BH_ClampOn_APD_PID\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t29/10/2024\tPhat Truc\tFirst created\n0.0.0.1\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.2 \t21/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "c5edb4166c9069f02e5ac43f325f8c98b474a1eb0842e56b6c29feaa038f4d53",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

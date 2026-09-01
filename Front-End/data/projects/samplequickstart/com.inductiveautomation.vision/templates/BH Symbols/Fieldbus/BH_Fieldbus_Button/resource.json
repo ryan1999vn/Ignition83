@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Fieldbus_Button\n Description       :  Template for BH_Fieldbus_Button\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t25/11/2024\tToan Phan\tFirst created\n0.0.0.1\t05/02/2025\tPhat Truc\tAdd openingPopupWindowOnce() script \n0.0.0.2\t09/02/2025\tToan Phan\tUse the Alarm Push Button template \n0.0.0.3\t13/02/2025\tToan Phan\tUpdated the script to avoid open dialogue twice\n0.0.0.4\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.5 \t21/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "9ad4b24c2518b9b3d746ed2d67deea0a2d1c52269662af371f555f1879c2536a",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

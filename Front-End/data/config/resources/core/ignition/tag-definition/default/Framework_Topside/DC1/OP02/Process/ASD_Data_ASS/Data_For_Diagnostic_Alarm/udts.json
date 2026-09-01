@@ -1,0 +1,191 @@
+[
+  {
+    "name": "InvalidInput",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "InvIn-CT"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP02.ASD_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "InvalidInput"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "ASD.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Malfunction",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "MALF-CT"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP02.ASD_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Malfunction"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "ASD.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "OutofMemory",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OOM-CT"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP02.ASD_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "OutofMemory"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "ASD.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  }
+]

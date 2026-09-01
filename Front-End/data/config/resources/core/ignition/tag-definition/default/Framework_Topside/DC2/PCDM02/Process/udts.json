@@ -1,0 +1,497 @@
+[
+  {
+    "name": "A1",
+    "parameters": {
+      "ChannelName": {
+        "dataType": "String",
+        "value": "A1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "PCDM_PowerSwitching_OPC"
+  },
+  {
+    "name": "A2",
+    "parameters": {
+      "ChannelName": {
+        "dataType": "String",
+        "value": "A2"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "PCDM_PowerSwitching_OPC"
+  },
+  {
+    "name": "A3",
+    "parameters": {
+      "ChannelName": {
+        "dataType": "String",
+        "value": "A3"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "PCDM_PowerSwitching_OPC"
+  },
+  {
+    "name": "A4",
+    "parameters": {
+      "ChannelName": {
+        "dataType": "String",
+        "value": "A4"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "PCDM_PowerSwitching_OPC"
+  },
+  {
+    "name": "B1",
+    "parameters": {
+      "ChannelName": {
+        "dataType": "String",
+        "value": "B1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "PCDM_PowerSwitching_OPC"
+  },
+  {
+    "name": "B2",
+    "parameters": {
+      "ChannelName": {
+        "dataType": "String",
+        "value": "B2"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "PCDM_PowerSwitching_OPC"
+  },
+  {
+    "name": "B3",
+    "parameters": {
+      "ChannelName": {
+        "dataType": "String",
+        "value": "B3"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "PCDM_PowerSwitching_OPC"
+  },
+  {
+    "name": "B4",
+    "parameters": {
+      "ChannelName": {
+        "dataType": "String",
+        "value": "B4"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02.PCDM_PowerSwitching"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "PCDM_PowerSwitching_OPC"
+  },
+  {
+    "name": "DSLM1",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "DSLM1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "DSLM2",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "DSLM2"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "DSLM3",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "DSLM3"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "DSLM4",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "DSLM4"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "DSLM5",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "DSLM5"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "DSLM6",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "DSLM6"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "DSLM7",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "DSLM7"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "PSCM1",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "PSCM1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "SEM",
+    "parameters": {
+      "AlarmPriorityComms": {
+        "dataType": "Integer",
+        "value": 2
+      },
+      "ClientOPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SEMOPCItemName": {
+        "dataType": "String",
+        "value": "CEM"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "tooltip": "Noted: Tag is named as SEM because indirect tag binding of HSK alarm is fixed with \"SEM\"",
+    "typeId": "SEM_OPC"
+  },
+  {
+    "name": "SSM",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "SSM"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "PCDM02"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  }
+]

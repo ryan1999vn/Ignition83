@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t26/06/2025\tPhat Truc\tFirst created\n 0.0.0.1\t11/08/2025\tPhat Truc\tAdded FieldNavigationDS, rowIdInDS, and rebind CommsOK, StructureName, MCS_Diagnostics_TagPath. Combined both Controller and VM Link Status",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "e8b8176049bacc3ecfed0c63cb3ac2d728efc316a3eaaed7b6806fe51da0cc2e",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

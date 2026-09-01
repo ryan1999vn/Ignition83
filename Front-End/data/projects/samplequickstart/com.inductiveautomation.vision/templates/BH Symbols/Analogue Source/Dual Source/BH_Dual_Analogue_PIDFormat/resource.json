@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Dual_Analogue_PIDFormat\n Description       :  Template for BH_Dual_Analogue_PIDFormat\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t01/11/2024\tPhat Truc\tFirst created\n0.0.0.1\t17/1/2025\tPhat Truc\tModified AlarmInhibited expressions\n0.0.0.2\t19/1/2025\tToan Phan\tBinded EngUnit to UDT\n0.0.0.3\t23/1/2025\tPhat Truc\tAdd BH_PopupRectangle template\n0.0.0.4\t22/2/2025\tToan Phan\tMove the name and ct to top\n0.0.0.5\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.6\t28/05/2025\tPhat Truc\tFix the Eng Unit label display\n0.0.0.7\t19/06/2025\tPhat Truc\tUpdate CT, EU, Name font size to 12\n0.0.0.8\t21/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "25724de3d8dc2bcdf60d1cf2e6e34801c03019624b0d69945c835796f3e546cd",
+    "lastModification": {
+      "actor": "Ryan",
+      "timestamp": "2026-08-28T08:33:31Z"
+    }
+  }
+}

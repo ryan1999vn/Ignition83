@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_Schlumberger_DHPT_LineStatus_Tab\nDescription       :   Template for BH_Schlumberger_DHPT_LineStatus_Tab\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t25/11/2024\tPhat Truc\tFirst created\n0.0.0.1\t16/1/2025\tPhat Truc\tChange Checkbox to Statusbox\n0.0.0.2\t10/03/2025\tPhat Truc\tTidy up/ add the description for properties\n0.0.0.3\t30/06/2025\tPhat Truc\tChange Line Status to Discrete Single Source",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "a51a4ca2622b5f698dea762a491d77f033710763c28de284307077313ad6cad8",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

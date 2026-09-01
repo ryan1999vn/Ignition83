@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_Discrete_Single_Configuration\nDescription       :   BH_Discrete_Single_Configuration\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t12/12/2024\tPhat Truc\tFirst created\n0.0.0.1\t25/01/2025\tToan Phan\tModified the enable/ diable logic of entry\n0.0.0.2\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.3\t05/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.4\t12/05/2025\tPhat Truc\tAdd Debounce Delay Setting setpoint",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "a584c8bb5f1dc4acf6367c52bfef3f605a8ebbb62442ae8ad37cc7feea0c71ba",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

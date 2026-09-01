@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_Shutdown_Status_Box\n Description       :  BH_Shutdown_Status_Box\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t22/05/2025\tToan  Phan, Phat Truc\tFirst created\n 0.0.0.1\t22/05/2025\tPhat Truc\tAdd GLM01, GLM02 icons\n 0.0.0.2\t11/06/2025\tPhat Truc\tUpdate warning status\u0027s visibility based on Shutdownexcluded\n0.0.0.3\t14/08/2025\tToan Phan\tUpdated mouse press event scrip to incated the path correctly on sidebar",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "b0962de6c66f3e41a40da76a1f42f6cf01d2716ac31b3b7be313b79119391918",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

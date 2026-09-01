@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Discrete_Entry\n Description       : Template for BH_Discrete_Entry\n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n0.0.0.0\t12/12/2024\tPhat Truc\t\tFirst created\n0.0.0.1\t23/1/2025\tPhat Truc\tAdd openingNumericEntryWindowOnce() script\n0.0.0.2\t06/02//2025\tPhat Truc\tAdd PopupRectangle\n0.0.0.3\t07/02/2025\tPhat Truc\tAdd scripts to prevent double-click action and right-click action\n0.0.0.4\t12/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.5\t16/06/2025\tPhat Truc\tAdd node control\n0.0.0.6\t30/06/2025\tPhat Truc\tUpdated getPermissionMessage script",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "3e6cd804de7b1180180ba3babf2b70d5b14fa2009b2332b8c9c8c6c63c48b486",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

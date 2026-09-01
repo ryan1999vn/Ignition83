@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_InterlockTable\n Description       :  Template for BH_InterlockTable\n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n 0.0.0.0\t18/11/2024\tToan Phan\t\tFirst modification\n0.0.0.1\t04/03/2025\tToan Phan\t\tRemove Database binding for interlock database\n0.0.0.2\t18/03/2025\tPhat Truc\t\tAdd CIV, GLBV, PBVB, PBVBA devices to interlockDatabase\n0.0.0.3\t23/04/2025\tPhat Truc\tAdd GLIV, GLCV devices to interlockDatabase\n0.0.0.4\t27/05/2025\tPhat Truc\tAdd Workover Interlock for OP1 to database\n0.0.0.5\t30/05/2025\tToan Phan\tUpdate the graphic to show last row line\n0.0.0.6\t10/06/2025\tPhat Truc\tUpdate PMV interlock: \u0027PWM\u0027 to \u0027PWV\u0027, \u0027AMW\u0027 to \u0027AMV\u0027\n0.0.0.7\t26/06/2025\tToan Phan\tUpdate  table update function based on the new interlock database\n0.0.0.8\t03/07/2025\tToan Phan\tLinked override level dynamically to PLC\n0.0.0.9\t03/07/2025\tToan Phan\tAdd the logic to process when the Global Masks are None\n0.0.1.0\t23/07/2025\tToan Phan\tResize the dialogue to fit size M",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "81fc3017bb8401f480ccae20a8e0d95c0af7164b1513c47b6d617095819368a5",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

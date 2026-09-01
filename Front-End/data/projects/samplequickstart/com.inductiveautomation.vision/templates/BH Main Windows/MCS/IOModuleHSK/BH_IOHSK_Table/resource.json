@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_PLC_Diagnostic_Status_Table\n Description       :  BH_PLC_Diagnostic_Status_Table\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t08/06/2025\tPhat Truc\tFirst created\n0.0.0.1\t13/06/2025\tPhat Truc\tAdd SNTP data\n0.0.0.2\t16/06/2025\tPhat Truc\tUpdate Data type of memory tags Copyright         : 2025 Baker Hughes Company\n File Name         : BH_IOHSK_Table\n Description       :  Table for IO module Housekeeping\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t27/08/2025\tToan Phan\tFirst created",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "665a62dfb5dfbf2c370468875f90fe94378ff259be795cf7f0ea5fe1db69a9bb",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

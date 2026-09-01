@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_StatusBox_Long\n Description       :  BH_StatusBox_Long\n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n 0.0.0.0\t06/02/2025\tTruc Phat\t\tFirst modification\n0.0.0.0\t14/02/2025\tToan Phan\t\tChange font size to 12\n0.0.0.1\t12/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.2\t12/12/2025\tPhat Truc\tEnable \"Enable Layout\" property to allow extend the status box length",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "2ba05f37a252e6b9023742f3abc449750110d56ec5d074f0459e672f796a67f2",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

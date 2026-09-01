@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n  0.0.0.0\t03/06/2025\tK. Kravchuk/ Toan Phan\tFirst created\n0.0.0.1\t01/07/2025\tPhat Truc\tAdded bindings for HSK alarm active",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "e4afef2eb738278030951e79e3ca6d38c18cbb49a8d852b32a29314e56940baa",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

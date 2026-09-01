@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_SupplyValve_Standard_Horizontal\n Description       :  BH_SupplyValve_Standard_Horizontal\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t7/1/2025\tPhat Truc\tFirst created\n0.0.0.0\t7/1/2025\tToan Phan\tUpdate actuator color by LastCommand\n0.0.0.1\t04/02/2025\tPhat Truc\tAdd BH_PopupRectangle template\n0.0.0.2\t03/11/2025\tToan Mai\tTidy up/ add the description for each property\n0.0.0.3\t27/05/2025\tPhat Truc\tBinding WorkOver to UDT\n0.0.0.4\t19/06/2025\tPhat Truc \tUpdate font size to 12\n0.0.0.5\t21/08/2025\tPhat Truc\tAdded binding for PLCCommsFail\n0.0.0.6\t05/09/2025\tPhat Truc\tMove ShowName to internal property",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "2a3bb6e8c5082743626cf772edfd5526c781f2e29401ab78de74c6eaeaf1e23f",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

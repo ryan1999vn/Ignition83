@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : HPU_EmptyTable\n Description       :   \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t26/08/2025\tToan Phan\tFirst created\n0.0.0.1\t27/08/2025\tToan Phan\tChanged decimal place of analog tabs to 0 (integer), added SMUCommsAlarm",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "a10e4a47b15c5c060c5edefa3ac84bfb4f932fac375481ef7929b269f2ed5e02",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

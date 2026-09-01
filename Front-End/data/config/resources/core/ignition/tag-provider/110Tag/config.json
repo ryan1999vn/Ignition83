@@ -1,0 +1,17 @@
+{
+  "profile": {
+    "allowBackfill": false,
+    "enableTagReferenceStore": true,
+    "type": "REMOTE"
+  },
+  "settings": {
+    "alarmMode": "Queried",
+    "alarmStatusEnabled": true,
+    "historyDatasourceName": "Sample_SQLite_Database",
+    "historyDriverName": "",
+    "historyMode": "Database",
+    "historyProviderName": "",
+    "remoteProviderName": "Sample_Tags",
+    "serverName": "Ignition-WinDev2407Eval"
+  }
+}

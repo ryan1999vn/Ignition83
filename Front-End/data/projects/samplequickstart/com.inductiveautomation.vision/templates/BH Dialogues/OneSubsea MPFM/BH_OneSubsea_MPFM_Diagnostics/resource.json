@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_OneSubsea_MPFM_Diagnostics\nDescription       :   Template for BH_OneSubsea_MPFM_Diagnostics\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t31/10/2024\tPhat Truc\tFirst created\n0.0.0.1\t05/02/2025\tK. Kravchuk\tUpdate as per CN",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "d99ef1e2854412de7950b8895542e1ae0e9a4533ebce228322df4d36e45c21ba",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

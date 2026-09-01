@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : SCM_Card_Comms_HSK_Row\n Description       :   \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t16/05/2025\tToan Phan\tFirst created\n 0.0.0.1\t08/09/2025\tPhat Truc\tUpdated Software Status binding for SEM A, SEM B",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "ef7b10457e559b1515f211f6dcfeca0cdab21f6a499659bafc87141b2604ac51",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

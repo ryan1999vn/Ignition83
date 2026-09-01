@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_ChokeDialogue_Advanced\n Description       :  Advanced tab of Choke dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t17/11/2024\tToan Phan\tFirst created\n0.0.0.1\t7/1/2025\tPhat Truc\tChange PromptMessage of Sensor Override checkbox\n0.0.0.2\t8/1/2025\tToan Phan\tModified digit display of position and pressure values\n0.0.0.3\t16/1/2025\tPhat Truc\tChange Supply Pressure, Sensor Positions symbols to ADS symbols\n0.0.0.4\t12/2/2025\tToan Phan\tRe-scale the size of status box and analog tab\n0.0.0.5\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.6\t07/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.7\t22/08/2025\tToan Phan\tAdded PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "64d3dd10a9a680cf63464e56b26dda6379b99ec2dd16fcbd7ffed89fef46b161",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

@@ -1,0 +1,277 @@
+[
+  {
+    "name": "Controller_IOComFault",
+    "parameters": {
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 2
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IOCtrlDiag_B"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Controller_IOComFault"
+      },
+      "SubDev": {
+        "dataType": "String",
+        "value": ""
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "CPU_Temperature",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IOCtrlDiag_B"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CPU_Temperature"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "CPU_Usage",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "%"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IOCtrlDiag_B"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CPU_Usage"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "MB_Temperature",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IOCtrlDiag_B"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "MB_Temperature"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "MEM_Usage",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "%"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "IOCtrlDiag_B"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "MEM_Usage"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "IPCDiag"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  }
+]

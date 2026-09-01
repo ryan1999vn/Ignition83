@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : Solartron SPFM PID symbol\n Description       :  BH_Solartron_SPFM_PID\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t12/12/2024\tToan Phan\tFirst created\n 0.0.0.1\t22/2/2025\tToan Phan\tMove the ADS Flowrate to top layer\n0.0.0.2\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.3\t21/08/2025\tPhat Truc\tAdded binding for PLCCommsFail and Update binding of CommsAlarm",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "1bc42c2f8bb37cb34ac06a562b9779cff767edbacb4597b060c38d967cba4728",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

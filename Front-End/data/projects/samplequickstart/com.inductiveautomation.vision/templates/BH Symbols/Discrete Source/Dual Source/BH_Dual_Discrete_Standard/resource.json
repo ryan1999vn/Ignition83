@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_Dual_Discrete_Standard\nDescription       :   Template for BH_Dual_Discrete_Standard\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t14/02/2025\tPhat Truc\tFirst created\n0.0.0.1 \t21/08/2025\tToan Phan\tUpdated binding for PLCCommsFail\n0.0.0.1\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "3faae14a85d841b5cad5735653b527e0dc06e40511d444221bcc9893f43a74ed",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

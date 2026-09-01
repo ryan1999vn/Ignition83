@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_Valve_Profile_Report\n Description       : Template for Valve profile report dialogue\n\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t14/05/2025\tToan Phan\tFirst created\n0.0.0.0\t15/05/2025\tToan Phan\tAdded operating time parameters",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "6a636e9be35eafda3bb3678097724e5d6cb2f57e46b5b8bbfc2c95a72e8c6a9f",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_CIMV_Dialogue\n Description       : SkoFlo CIMV Dialogue              \n Revision History  :\n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n  0.0.0.0\t24/10/2024\tToan Phan\tFirst created\n 0.0.0.1\t27/12/2024\tToan Phan\tCorrect message text\n 0.0.0.2\t12/01/2025\tToan Phan\tChange Warning field to Discrete Single\nDisable setpoint when MCS is not POC\n 0.0.0.3\t15/1/2025\tToan Phan\t\tAdd Open/CloseInterlockEnableMask\n0.0.0.4\t21/1/2025\tPhat Truc\tChange ChannelAStatus ChannelBStatus bindings\n0.0.0.5\t07/02/2025\tToan Phan\tUpdate logic to disable buttons when the CIMV is disable\n0.0.0.6\t11/02/2025\tPhat Truc\tModified aXes and tagPen properties binding. Bind Flow EU to ADS EU\n0.0.0.7\t17/02/2025\tPhat Truc\tChange the height from 600 to 570\n0.0.0.8\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.9\t27/02/2025\tToan Phan\tRename the properties DCSControlActive to HMI_IsNotPOC\n0.0.1.0\t04/03/2025\tToan Phan\t\tRemoved MostSeverity_ZeroFlowRecal and MostSeverity_LowP1P3D properties; LowP1P3DifferentialWarning; Ovr_TimerPreset; zeroFlowReCalWarning; AlarmInhibited  (not used)\nTidy up/ add the description for each property\n0.0.1.1\t27/05/2025\tPhat Truc\tBinding WorkOver to UDT\n0.0.1.2\t03/06/2025\tPhat Truc\tChange the max value of Target position to 100\n0.0.1.3\t06/06/2025\tToan Phan\tUpdated tag path of ASS/DSS after tag tidying up\n0.0.1.4\t03/07/2025\tToan Phan\tChange Interlock tab to bh_Interlock\n0.0.1.5\t22/08/2025\tToan Phan\tUpdated binding for PLCCommsFail\n0.0.1.6\t18/09/2025\tPhat Truc\tAdded properties to hide pressure sensors if not installed\n0.0.1.7\t24/12/2025\tPhat Truc\tRemoved ValveEnabled in ItemEnabled bindings of DrivetoFlow and DrivetoPosition buttons",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "b0996617a34795953ce89f752aa31f5708fa6c411d6b5170b6f7fc01d0e60fdc",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

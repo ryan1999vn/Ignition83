@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : \n Description       :               \n Revision History  :\n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t01/12/2024\tToan Phan\tFirst created\n 0.0.0.1\t10/06/2025\tPhat Truc\tChange buttons to BH_CommandButton_Bool\n0.0.0.2\t14/06/2025\tToan Phan\tAdd node control\n0.0.0.3\t03/09/2025\tToan Phan\tUpdated the buttons script to set POC for both PLCs\n0.0.0.4\t19/12/2025\tPhat Truc\tUpdated the Take Control button\u0027s script",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "1e5fee843994211131129881d206e4d5b05a37b51f7930e5f55cbb155f7bf0cc",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

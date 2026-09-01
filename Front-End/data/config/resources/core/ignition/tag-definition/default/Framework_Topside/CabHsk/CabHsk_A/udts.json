@@ -1,0 +1,772 @@
+[
+  {
+    "name": "AC_ActivePower",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "W"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "CabHsk_A"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "AC_ActivePower"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "CabHsk"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "AC_Current",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "A"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "CabHsk_A"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "AC_Current"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "CabHsk"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "AC_Frequency",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Hz"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "CabHsk_A"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "AC_Frequency"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "CabHsk"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "AC_PowerFactor",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": ""
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "CabHsk_A"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "AC_PowerFactor"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "CabHsk"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "AC_Voltage",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "V"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "CabHsk_A"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "AC_Voltage"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "CabHsk"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "CabTemp",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "CabHsk_A"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CabTemp"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "CabHsk"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "FanCurrent",
+    "parameters": {
+      "AlarmPriorityH": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "AlarmPriorityHH": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "A"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "CabHsk_A"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "FanCurrent"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "CabHsk"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "FanFailure",
+    "parameters": {
+      "AlarmLabel": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Healthy"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "CabHsk_A"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "FanFailure"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "CabHsk"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PSU_A_Status",
+    "parameters": {
+      "AlarmLabel": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Normal"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "CabHsk_A"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PSU_A_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "CabHsk"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PSU_B_Status",
+    "parameters": {
+      "AlarmLabel": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Normal"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "CabHsk_A"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PSU_B_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "CabHsk"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PSU_C_Status",
+    "parameters": {
+      "AlarmLabel": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Normal"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "CabHsk_A"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PSU_C_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "CabHsk"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PSU_D_Status",
+    "parameters": {
+      "AlarmLabel": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Fault"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Normal"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "CabHsk_A"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PSU_D_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "CabHsk"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "ThermalSwitch_H",
+    "parameters": {
+      "AlarmLabel": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "CabHsk_A"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "ThermalSwitch_H"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "CabHsk"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "ThermalSwitch_HH",
+    "parameters": {
+      "AlarmLabel": {
+        "dataType": "String",
+        "value": ""
+      },
+      "AlarmPriority": {
+        "dataType": "Integer",
+        "value": 3
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "CabHsk_A"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "ThermalSwitch_HH"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "CabHsk"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  }
+]

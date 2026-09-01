@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_CheckBoxOnly_Inverse\n Description       :  Template for BH_CheckBoxOnly_Inverse\n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n 0.0.0.0\t18/11/2024\tPhat Truc\t\tFirst modification\n0.0.0.1\t2/1/2025\tPhat Truc\tAdd Permission message Script\n0.0.0.2\t16/1/2025\tPhat Truc\tChange Checkbox\u0027s background color\n0.0.0.3\t7/2/2025\tPhat Truc\tUpdate mosue hover icon\n0.0.0.4\t18/2/2025\tHai Pham\tAdd Log change function\n0.0.0.5\t12/03/2025\tPhat Truc\tTidy up/ add the description for each property. Add scripts to prevent double-click action and right-click action\n0.0.0.6 \t16/06/2025\tPhat Truc\tAdd node control\n0.0.0.7\t30/06/2025\tPhat Truc\tUpdated getPermissionMessage script",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "0a859034efbe2d73446481d176f525146c58d7b0627b0bc03bdeb943eb923f76",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

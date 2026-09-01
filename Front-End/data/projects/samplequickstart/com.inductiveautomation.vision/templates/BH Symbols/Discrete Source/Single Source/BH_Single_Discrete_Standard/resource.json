@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Single_Discrete_Standard\n Description       :  BH_Single_Discrete_Standard\n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n 0.0.0.0\t12/12/2024\tPhat Truc\tFirst created\n0.0.0.1\t12/01/2024\tToan Phan\tMove status description to external properties\n0.0.0.2\t04/02/2025\tPhat Truc\tAdd BH_PopupRectangle. Binding DiscreteStatus with UDT.\n0.0.0.3\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.4 \t21/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "3b4015c04617f8fa6e470ea8dcf5fac9c08867456c995a7e5a7b6b2eb44bd6bb",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

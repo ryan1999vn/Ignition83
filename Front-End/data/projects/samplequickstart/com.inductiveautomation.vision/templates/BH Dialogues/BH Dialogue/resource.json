@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0\t04/11/2024\tToan Phan\tFirst created\n0.0.0.1\t10/02/2025\tPhat Truc\tModified Trend button\u0027s scripts. Add aXes and tagPen properties. Updated some dimension\n0.0.0.2\t17/02/2025\tPhat Truc\tRemove title bar. Change the height from 600 to 570\n 0.0.0.3\t11/06/2025\tToan Phan\tAdded Area and Structure detail to the dialogue name\n 0.0.0.4\t30/06/2025\tToan Phan\tAdded selectable dialogue size S,M,L\n 0.0.0.5\t01/07/2025\tToan Phan\tUpdated sizes and the minimize, expanding script; Revert Ack button size\n0.0.0.6\t23/07/2025\tToan Phan\tUpdate script to resolve the issue popup when windows type change in designer runtime\n0.0.0.7\t21/08/2025\tPhat Truc\tAdded property TrendConfigured to hide Trend button\n0.0.0.8\t27/08/2025\tPhat Truc\tAdded property Extendable to hide More/Less button",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "c3fc1f6a551431331c1593865065d22f57f771374ebff5bb782587c9e1866e76",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

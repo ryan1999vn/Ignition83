@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_PRODMNF_PID_STANDARD\n Description       :   Template for Production Manifold P\u0026ID\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t16/03/2024\tPhat Truc\tFirst created\n 0.0.0.1\t28/05/2024\tPhat Truc\tImplement XT Mode graphics and Workover Mode binding\n 0.0.0.2\t29/05/2024\tPhat Truc\tMinor modification in graphics",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "ee99c8517d77008df3090e4e52bdbff16ce0ceb2590413357db8ac5f4f50c110",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

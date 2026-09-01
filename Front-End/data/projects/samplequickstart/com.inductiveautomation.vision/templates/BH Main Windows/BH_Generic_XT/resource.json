@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Generic_XT\n Description       :   Template for XT windows background\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t30/10/2024\tToan Phan\tFirst created\n0.0.0.1\t17/03/2025\tPhat Truc\tCreate TabData dataset parameters for dynamic use\n0.0.0.2\t29/05/2025\tToan Phan\tRemove tab strip script not to update the side bar when selecting tab\n0.0.0.3\t26/06/2025\tPhat Truc\tChange color of selected tab",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "9e07a94b85a1764ee43ac2889b283f21bb38bec06462d320ee678ff22fca2d1f",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-07T08:56:32Z"
+    }
+  }
+}

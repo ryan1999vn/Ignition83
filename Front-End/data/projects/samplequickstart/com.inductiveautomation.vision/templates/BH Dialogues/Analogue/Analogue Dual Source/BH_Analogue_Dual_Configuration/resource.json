@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Analogue_Dual_Configuration\n Description       :  Configuration tab of Analogue Dual Source dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t18/11/2024\tPhat Truc\tFirst created\n0.0.0.1\t15/1/2025\tPhat Truc \tConfig Deadband for Alarms\n0.0.0.2\t03/02/2025\tPhat Truc\tModify Visibility of Raw Value Setpoints\n0.0.0.3\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.4\t27/02/2025\tToan Phan\tShow lines in the HH/H/LL/L rows when relevant alarm is not required\n0.0.0.5\t03/03/2025\tToan Phan\tTidy up/ add the description for each property",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "1c2bce7ff7e49bbc64dba9c26406437d7dde48a02be9a4f030324388f4e976bc",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

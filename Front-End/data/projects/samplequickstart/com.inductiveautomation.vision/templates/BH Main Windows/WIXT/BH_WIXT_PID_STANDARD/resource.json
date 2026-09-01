@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_WIXT_PID_STANDARD\n Description       :   Template for Water Injection XT P\u0026ID\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t18/12/2024\tPhat Truc\tFirst created\n 0.0.0.1\t28/05/2025\tPhat Truc\tImplement XT Mode graphics and Workover Mode binding\n 0.0.0.2\t10/06/2025\tPhat Truc\tHide unused Valves\n0.0.0.3\t19/06/2025\tPhat Truc\tMinor update graphics\n0.0.0.4\t23/06/2025\tToan Phan\tUpdate P\u0026ID, removed unused lines, added flow direction\n0.0.0.5\t30/06/2025\tPhat Truc\tMinor graphic update",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "ed33f606858753cd01368366130ed4faa7936f4db7ab4be46e8f269dd5af0487",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

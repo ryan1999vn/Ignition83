@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_ValveDialogue_Config\n Description       :  Configuation tab of Standard Hydraulic Valve dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t19/11/2024\tToan Phan\tFirst created\n0.0.0.1\t14/1/2025\tToan Phan\tAdjust the min limit of the setpoints\n0.0.0.2\t24/1/2025\tToan Phan\tUpdate the decimal place of duration entries\n0.0.0.3\t4/2/2025\tToan Phan\tMove the selected SEM text (auto mode)\n0.0.0.4\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.5\t06/03/2025\tToan Phan\tTidy up/ add the description for properties\n0.0.0.6\t11/04/2025\tPhat Truc\tHide Label_SEM_selected when comms alarm is active and Auto channel is selected.\n0.0.0.7\t23/07/2025\tToan Phan\tResize the dialogue to fit size M\n0.0.0.8\t22/08/2025\tToan Phan\tAdded new parameter PLCCommsFail.\nUpdate the logic of CommsAlarm of radio buttons and entry boxes to link to this new parameter\n0.0.0.9\t03/09/2025\tPhat Truc\tSwapped ClosePressure and OpenFlow setpoints\u0027 position",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "7b8be0bfad8498a475a4380db613b03f4889e1fba92b7ccc48c58bfee6698841",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-07T08:56:55Z"
+    }
+  }
+}

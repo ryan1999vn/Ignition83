@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_Schlumberger_DHPT_CardTab\nDescription       :   Template for BH_Schlumberger_DHPT_CardTab\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t25/11/2024\tPhat Truc\tFirst created\n0.0.0.1\t10/03/2025\tPhat Truc\tTidy up/ add the description for properties\n0.0.0.2\t25/03/2025\tPhat Truc\tRemove Line Status Value graphics and parameter",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "5d8bf050189f90e84f9b13b0f7bcfec5ceca43b710c775543022130658a34bce",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

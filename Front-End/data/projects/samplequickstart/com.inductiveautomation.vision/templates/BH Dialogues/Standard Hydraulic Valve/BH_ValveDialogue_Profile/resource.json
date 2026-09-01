@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_ValveDialogue_Profile\n Description       :  Profile tab of Standard Hydraulic Valve dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t19/11/2024\tToan Phan\tFirst created\n 0.0.0.1\t10/01/2025\tToan Phan\tCorrect min security level of supply/ return flow duration\n0.0.0.2\t24/1/2025\tToan Phan\tUpdate the decimal place of duration entries\n0.0.0.3\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.4\t06/03/2025\tToan Phan\tTidy up/ add the description for properties\n0.0.0.5\t27/04/2025\tToan Phan\tUpdated status box, open profile button\n0.0.0.6\t02/05/2025\tToan Phan\tUpdated status box, open profile button for dual SEM selection\n0.0.0.7\t14/05/2025\tToan Phan\tAdded new profile view button to open the report\n0.0.0.8\t15/05/2025\tToan Phan\tUpdated  profile view button to transfer the operating time to the report\n0.0.0.9\t05/06/2025\tToan Phan\tIn profile view button Updated the profile folder path linked to the default tag\n0.0.1.0\t10/06/2025\tPhat Truc\tAdd Label name for Profile Duration setpoints\n0.0.1.1\t27/06/2025\tToan Phan\tUpdated the scale function in the Profile View script\n0.0.1.2\t07/07/2025\tToan Phan\t\nUpdate Profile View button, remove scale functions; added script to avoid error popup when opening SCSSV valve profile",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "3c1ab899eba120c5886be1d09d772241c93e883d51ea0522d360c73e746db070",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

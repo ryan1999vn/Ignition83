@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t12/05/2025\tPhat Truc\tFirst created\n 0.0.0.1\t16/05/2025\tPhat Truc\tAdd isGlobalShutdown and ShutdownType properties\n 0.0.0.2\t22/05/2025\tPhat Truc\tAdd DCName property and modify popup scripting\n 0.0.0.3\t29/05/2025\tPhat Truc\tModify value of Input status \n 0.0.0.4\t19/06/2025\tPhat Truc\tUpdate priorities of Status indications",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "387a28d4299bd65e10d1f4f8eff6cbaa2216dd96eba7aff8b730acbcae2fc28a",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

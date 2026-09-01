@@ -1,0 +1,282 @@
+[
+  {
+    "name": "EPCM1",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "EPCM1"
+      },
+      "EPUName": {
+        "dataType": "String",
+        "value": "EPU1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "EPU"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "EPU_EPCM_Viper_OPC"
+  },
+  {
+    "name": "EPCM2",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "EPCM2"
+      },
+      "EPUName": {
+        "dataType": "String",
+        "value": "EPU1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "EPU"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "EPU_EPCM_Viper_OPC"
+  },
+  {
+    "name": "EPCM3",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "EPCM3"
+      },
+      "EPUName": {
+        "dataType": "String",
+        "value": "EPU1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "EPU"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "EPU_EPCM_Viper_OPC"
+  },
+  {
+    "name": "EPCM4",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "EPCM4"
+      },
+      "EPUName": {
+        "dataType": "String",
+        "value": "EPU1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "EPU"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "EPU_EPCM_Viper_OPC"
+  },
+  {
+    "name": "FPM1",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "FPM1"
+      },
+      "EPUName": {
+        "dataType": "String",
+        "value": "EPU1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "EPU"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "EPU_FPM_OPC",
+    "tags": [
+      {
+        "name": "PowerFactor",
+        "opcServer": {
+          "bindType": "parameter",
+          "binding": "{OPCName}"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "IO1",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "IO1"
+      },
+      "EPUName": {
+        "dataType": "String",
+        "value": "EPU1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "EPU"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "EPU_IO_OPC"
+  },
+  {
+    "name": "PCU1",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "PCU1"
+      },
+      "EPUName": {
+        "dataType": "String",
+        "value": "EPU1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "EPU"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "EPU_PCU_OPC"
+  },
+  {
+    "name": "PCU2",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "PCU2"
+      },
+      "EPUName": {
+        "dataType": "String",
+        "value": "EPU1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "EPU"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "EPU_PCU_OPC"
+  },
+  {
+    "name": "PCU3",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "PCU3"
+      },
+      "EPUName": {
+        "dataType": "String",
+        "value": "EPU1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "EPU"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "EPU_PCU_OPC"
+  },
+  {
+    "name": "PCU4",
+    "parameters": {
+      "DeviceName": {
+        "dataType": "String",
+        "value": "PCU4"
+      },
+      "EPUName": {
+        "dataType": "String",
+        "value": "EPU1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "EPU"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "EPU_PCU_OPC"
+  }
+]

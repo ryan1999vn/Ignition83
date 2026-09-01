@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t03/06/2025\tK. Kravchuk/ Toan Phan\tFirst created\n 0.0.0.1\t13/06/2025\tPhat Truc\tUpdated CommsOK binding",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "0a2ab951dca8c4c7857e913427a54aae0402e00247abd9fcc5aa3ad47981b9fb",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-07T08:56:02Z"
+    }
+  }
+}

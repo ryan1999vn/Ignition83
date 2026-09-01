@@ -1,0 +1,4474 @@
+[
+  {
+    "name": "APD1",
+    "parameters": {
+      "APDName": {
+        "dataType": "String",
+        "value": "APD1"
+      },
+      "CardOPCName": {
+        "dataType": "String",
+        "value": "FSM1_CANBus_Control_IF2"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "APD1-ClientTag"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "ClampOnAPD_OPC"
+  },
+  {
+    "name": "APD1_Status",
+    "parameters": {
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "APD1_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "CANBus_DevStatus_OPC",
+    "tags": [
+      {
+        "name": "DevState_A",
+        "tagType": "Folder",
+        "tags": [
+          {
+            "name": "Error",
+            "tagType": "AtomicTag",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "DevState_B",
+        "tagType": "Folder",
+        "tags": [
+          {
+            "name": "Error",
+            "tagType": "AtomicTag",
+            "value": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "APD2",
+    "parameters": {
+      "APDName": {
+        "dataType": "String",
+        "value": "APD2"
+      },
+      "CardOPCName": {
+        "dataType": "String",
+        "value": "FSM1_CANBus_Control_IF2"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "APD2-ClientTag"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "ClampOnAPD_OPC"
+  },
+  {
+    "name": "APD2_Status",
+    "parameters": {
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "APD2_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "CANBus_DevStatus_OPC",
+    "tags": [
+      {
+        "name": "DevState_A",
+        "tagType": "Folder",
+        "tags": [
+          {
+            "name": "Error",
+            "tagType": "AtomicTag",
+            "value": true
+          }
+        ]
+      },
+      {
+        "name": "DevState_B",
+        "tagType": "Folder",
+        "tags": [
+          {
+            "name": "Error",
+            "tagType": "AtomicTag",
+            "value": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CITV1A",
+    "parameters": {
+      "ActualFlowName": {
+        "dataType": "String",
+        "value": "ActualFlow"
+      },
+      "CardOPCName": {
+        "dataType": "String",
+        "value": "FSM1_CANBus_Control_IF2"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-CITV1A"
+      },
+      "DataFolderName": {
+        "dataType": "String",
+        "value": "CITV1A_Data_ASS"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "CITV1A"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SkoFloCIMV_OPC",
+    "tags": [
+      {
+        "name": "MajorError",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      }
+    ]
+  },
+  {
+    "name": "CITV1A_Status",
+    "parameters": {
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CITV1A_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "CANBus_DevStatus_OPC"
+  },
+  {
+    "name": "CITV1B",
+    "parameters": {
+      "ActualFlowName": {
+        "dataType": "String",
+        "value": "ActualFlow"
+      },
+      "CardOPCName": {
+        "dataType": "String",
+        "value": "FSM1_CANBus_Control_IF2"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-CITV1B"
+      },
+      "DataFolderName": {
+        "dataType": "String",
+        "value": "CITV1B_Data_ASS"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "CITV1B"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SkoFloCIMV_OPC",
+    "tags": [
+      {
+        "name": "MajorError",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      }
+    ]
+  },
+  {
+    "name": "CITV1B_Status",
+    "parameters": {
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CITV1B_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "CANBus_DevStatus_OPC"
+  },
+  {
+    "name": "CITV2A",
+    "parameters": {
+      "ActualFlowName": {
+        "dataType": "String",
+        "value": "ActualFlow"
+      },
+      "CardOPCName": {
+        "dataType": "String",
+        "value": "FSM1_CANBus_Control_IF3"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-CITV2A"
+      },
+      "DataFolderName": {
+        "dataType": "String",
+        "value": "CITV2A_Data_ASS"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "CITV2A"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SkoFloCIMV_OPC",
+    "tags": [
+      {
+        "name": "MajorError",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      }
+    ]
+  },
+  {
+    "name": "CITV2A_Status",
+    "parameters": {
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CITV2A_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "CANBus_DevStatus_OPC"
+  },
+  {
+    "name": "CITV2B",
+    "parameters": {
+      "ActualFlowName": {
+        "dataType": "String",
+        "value": "ActualFlow"
+      },
+      "CardOPCName": {
+        "dataType": "String",
+        "value": "FSM1_CANBus_Control_IF3"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-CITV2B"
+      },
+      "DataFolderName": {
+        "dataType": "String",
+        "value": "CITV2B_Data_ASS"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "CITV2B"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SkoFloCIMV_OPC",
+    "tags": [
+      {
+        "name": "MajorError",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      }
+    ]
+  },
+  {
+    "name": "CITV2B_Status",
+    "parameters": {
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CITV2B_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "CANBus_DevStatus_OPC"
+  },
+  {
+    "name": "CIV1",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "CIV1_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-CIV1-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "011"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "CIV1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC"
+  },
+  {
+    "name": "CIV1_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "CIV1_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CIV1_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "CIV2",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "CIV2_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-CIV2-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "012"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "CIV2"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC"
+  },
+  {
+    "name": "CIV2_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "CIV2_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CIV2_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "CIV3",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "CIV3_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-CIV3-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "013"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelFlowSupply": {
+        "dataType": "String",
+        "value": "025"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "CIV3"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC"
+  },
+  {
+    "name": "CIV3_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "CIV3_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CIV3_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "CIV4",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "CIV4_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-CIV4-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "011"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ProfileIPAddressOcta4ActPress": {
+        "dataType": "String",
+        "value": "4"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "CIV4"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC"
+  },
+  {
+    "name": "CIV4_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "CIV4_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CIV4_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "CIV5",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "CIV5_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-CIV5-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ProfileIPAddressOcta4ActPress": {
+        "dataType": "String",
+        "value": "4"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "CIV5"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC"
+  },
+  {
+    "name": "CIV5_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "CIV5_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CIV5_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "CIV6",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "CIV6_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-CIV6-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "012"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ProfileIPAddressOcta4ActPress": {
+        "dataType": "String",
+        "value": "4"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "CIV6"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC"
+  },
+  {
+    "name": "CIV6_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "CIV6_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CIV6_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "CIV7",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "CIV7_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-CIV7-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "013"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ProfileIPAddressOcta4ActPress": {
+        "dataType": "String",
+        "value": "4"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "CIV7"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC"
+  },
+  {
+    "name": "CIV7_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "CIV7_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CIV7_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "CIV8",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "CIV8_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-CIV8-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "014"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "CIV8"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC"
+  },
+  {
+    "name": "CIV8_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "CIV8_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "CIV8_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "DISM",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "DISM"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "DISM_Modbus_Control_IF1",
+    "parameters": {
+      "CardDisplayName": {
+        "dataType": "String",
+        "value": "DISM Limb 1"
+      },
+      "CardIFOPCName": {
+        "dataType": "String",
+        "value": "DISM_Modbus_Control_IF1"
+      },
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "DISM"
+      },
+      "DHPTName": {
+        "dataType": "String",
+        "value": "DHPT"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SEMOPCItemName": {
+        "dataType": "String",
+        "value": "SEM"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "Fieldbus_IWIS_OPC"
+  },
+  {
+    "name": "DSLM",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "DSLM"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "DSM1",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "DSM1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "DSM2",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "DSM2"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "FSM1",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "FSM1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "FSM1_CANBus_Control_IF1",
+    "parameters": {
+      "CardDisplayName": {
+        "dataType": "String",
+        "value": "FSM1 Limb 1"
+      },
+      "CardIFOPCName": {
+        "dataType": "String",
+        "value": "FSM1_CANBus_Control_IF1"
+      },
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "FSM1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SEMOPCItemName": {
+        "dataType": "String",
+        "value": "SEM"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "Fieldbus_CANBus_OPC"
+  },
+  {
+    "name": "FSM1_CANBus_Control_IF2",
+    "parameters": {
+      "CardDisplayName": {
+        "dataType": "String",
+        "value": "FSM1 Limb 2"
+      },
+      "CardIFOPCName": {
+        "dataType": "String",
+        "value": "FSM1_CANBus_Control_IF2"
+      },
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "FSM1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SEMOPCItemName": {
+        "dataType": "String",
+        "value": "SEM"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "Fieldbus_CANBus_OPC"
+  },
+  {
+    "name": "FSM1_CANBus_Control_IF3",
+    "parameters": {
+      "CardDisplayName": {
+        "dataType": "String",
+        "value": "FSM1 Limb 3"
+      },
+      "CardIFOPCName": {
+        "dataType": "String",
+        "value": "FSM1_CANBus_Control_IF3"
+      },
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "FSM1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SEMOPCItemName": {
+        "dataType": "String",
+        "value": "SEM"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "Fieldbus_CANBus_OPC"
+  },
+  {
+    "name": "FSM2",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "FSM2"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "FSM2_CANBus_Control_IF3",
+    "parameters": {
+      "CardDisplayName": {
+        "dataType": "String",
+        "value": "FSM2 Limb 3"
+      },
+      "CardIFOPCName": {
+        "dataType": "String",
+        "value": "FSM2_CANBus_Control_IF3"
+      },
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "FSM2"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SEMOPCItemName": {
+        "dataType": "String",
+        "value": "SEM"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "Fieldbus_CANBus_OPC"
+  },
+  {
+    "name": "GLBV1",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "GLBV1_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-GLBV1-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "003"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "GLBV1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC",
+    "tags": [
+      {
+        "name": "ValveEnable",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ValveName}.ValveEnable"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "GLBV1_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "GLBV1_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "GLBV1_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "GLBV2",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "GLBV2_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-GLBV1-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "GLBV2"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC",
+    "tags": [
+      {
+        "name": "ValveEnable",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ValveName}.ValveEnable"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "GLBV2_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "GLBV2_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "GLBV2_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "GLBV3",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "GLBV3_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-GLBV3-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "007"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "GLBV3"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC",
+    "tags": [
+      {
+        "name": "ValveEnable",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ValveName}.ValveEnable"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "GLBV3_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "GLBV3_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "GLBV3_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "GLBV4",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "GLBV4_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-GLBV4-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "008"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "GLBV4"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC",
+    "tags": [
+      {
+        "name": "ValveEnable",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ValveName}.ValveEnable"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "GLBV4_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "GLBV4_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "GLBV4_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "LP_FMR",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "LP_FMR_CT"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "L"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "LP_FMR"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "LP_FMS",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "LP_FMS_CT"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "L"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "LP_FMS"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "LPA",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "LPA-CLIENT"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPSA"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "LPA"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC"
+  },
+  {
+    "name": "LPB",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "LPB-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPSB"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "LPB"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC"
+  },
+  {
+    "name": "LPC",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "LPC-CT"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "LPR",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "LPR-CT"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "LPSA",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "LPSA-CT"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "LPSA"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "LPSB",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "LPSB-CT"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "LPSB"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "PBVA1",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "PBVA1_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PBVA1-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "007"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ProfileIPAddressOcta4ActPress": {
+        "dataType": "String",
+        "value": "4"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "PBVA1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC",
+    "tags": [
+      {
+        "name": "ValveEnable",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ValveName}.ValveEnable"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PBVA1_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "PBVA1_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PBVA1_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "PBVA2",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "PBVA2_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PBVA2-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "010"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ProfileIPAddressOcta4ActPress": {
+        "dataType": "String",
+        "value": "4"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "PBVA2"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC",
+    "tags": [
+      {
+        "name": "ValveEnable",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ValveName}.ValveEnable"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PBVA2_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "PBVA2_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PBVA2_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "PBVA3",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "PBVA3_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PBVA3-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "005"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "PBVA3"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC",
+    "tags": [
+      {
+        "name": "ValveEnable",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ValveName}.ValveEnable"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PBVA3_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "PBVA3_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PBVA3_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "PBVA4",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "PBVA4_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PBVA4-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "009"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "PBVA4"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC",
+    "tags": [
+      {
+        "name": "ValveEnable",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ValveName}.ValveEnable"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PBVA4_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "PBVA4_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PBVA4_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "PBVB1",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "PBVB1_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PBVB1-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "009"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ProfileIPAddressOcta4ActPress": {
+        "dataType": "String",
+        "value": "4"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "PBVB1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC",
+    "tags": [
+      {
+        "name": "ValveEnable",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ValveName}.ValveEnable"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PBVB1_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "PBVB1_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PBVB1_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "PBVB2",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "PBVB2_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PBVB2-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "008"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ProfileIPAddressOcta4ActPress": {
+        "dataType": "String",
+        "value": "4"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "PBVB2"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC",
+    "tags": [
+      {
+        "name": "ValveEnable",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ValveName}.ValveEnable"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PBVB2_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "PBVB2_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PBVB2_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "PBVB3",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "PBVB3_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PBVB3-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "PBVB3"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC",
+    "tags": [
+      {
+        "name": "ValveEnable",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ValveName}.ValveEnable"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PBVB3_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "PBVB3_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PBVB3_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "PBVB4",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "PBVB4_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PBVB4-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "010"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "PBVB4"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC",
+    "tags": [
+      {
+        "name": "ValveEnable",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ValveName}.ValveEnable"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PBVB4_AP",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "PBVB4_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PBVB4_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "PHV1",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "PHV1_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PHV1-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "014"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "PHV1"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC",
+    "tags": [
+      {
+        "name": "ValveEnable",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ValveName}.ValveEnable"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PHV1_AP",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "PHV1_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PHV1_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "PHV2",
+    "parameters": {
+      "ActuatorName": {
+        "dataType": "String",
+        "value": "PHV2_AP"
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PHV1-Client"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ProfileChannelActualPressure": {
+        "dataType": "String",
+        "value": "001"
+      },
+      "ProfileChannelFlowReturn": {
+        "dataType": "String",
+        "value": "029"
+      },
+      "ProfileChannelPressureReturn": {
+        "dataType": "String",
+        "value": "006"
+      },
+      "ProfileChannelPressureSupply": {
+        "dataType": "String",
+        "value": "004"
+      },
+      "ProfileIPAddressOcta4ActPress": {
+        "dataType": "String",
+        "value": "4"
+      },
+      "ReturnPressureName": {
+        "dataType": "String",
+        "value": "LPR"
+      },
+      "SupplyPressureName": {
+        "dataType": "String",
+        "value": "LPC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      },
+      "ValveName": {
+        "dataType": "String",
+        "value": "PHV2"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "StandardHydraulicValve_OPC",
+    "tags": [
+      {
+        "name": "ValveEnable",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ValveName}.ValveEnable"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PHV2_AP",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "PHV2_AP_Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PHV2_AP"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "PT1",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PT1-Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PT1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PT2",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PT2-Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PT2"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PT3",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PT3-Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PT3"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PT4",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PT4-Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PT4"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PT5",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PT5-Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PT5"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PT6",
+    "parameters": {
+      "AlarmGroup": {
+        "dataType": "String",
+        "value": ""
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-PT6-Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "Bara"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PT6"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC",
+    "tags": [
+      {
+        "name": "InputIsEng",
+        "readOnly": true,
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "PTT1_Status",
+    "parameters": {
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PTT1_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "CANBus_DevStatus_OPC"
+  },
+  {
+    "name": "PTT2_Status",
+    "parameters": {
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PTT2_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "CANBus_DevStatus_OPC"
+  },
+  {
+    "name": "PTT3_Status",
+    "parameters": {
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PTT3_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "CANBus_DevStatus_OPC"
+  },
+  {
+    "name": "PTT4_Status",
+    "parameters": {
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PTT4_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "CANBus_DevStatus_OPC"
+  },
+  {
+    "name": "PTT5_Status",
+    "parameters": {
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PTT5_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "CANBus_DevStatus_OPC"
+  },
+  {
+    "name": "PTT6_Status",
+    "parameters": {
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PTT6_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "CANBus_DevStatus_OPC"
+  },
+  {
+    "name": "SEM",
+    "parameters": {
+      "ClientOPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SEMOPCItemName": {
+        "dataType": "String",
+        "value": "SEM"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_OPC"
+  },
+  {
+    "name": "SSM1",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "SSM1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "SSM1_CANBus_Control_IF2",
+    "parameters": {
+      "CardDisplayName": {
+        "dataType": "String",
+        "value": "SSM1 Limb 2"
+      },
+      "CardIFOPCName": {
+        "dataType": "String",
+        "value": "SSM1_CANBus_Control_IF2"
+      },
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "SSM1"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SEMOPCItemName": {
+        "dataType": "String",
+        "value": "SEM"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "Fieldbus_CANBus_OPC"
+  },
+  {
+    "name": "SSM2",
+    "parameters": {
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "SSM2"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "SEM_Card_OPC"
+  },
+  {
+    "name": "SSM2_CANBus_Control_IF2",
+    "parameters": {
+      "CardDisplayName": {
+        "dataType": "String",
+        "value": "SSM2 Limb 2"
+      },
+      "CardIFOPCName": {
+        "dataType": "String",
+        "value": "SSM2_CANBus_Control_IF2"
+      },
+      "CardOPCItemName": {
+        "dataType": "String",
+        "value": "SSM2"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SEMOPCItemName": {
+        "dataType": "String",
+        "value": "SEM"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "Fieldbus_CANBus_OPC"
+  },
+  {
+    "name": "TT1",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-TT1-Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "TT1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "TT2",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-TT2-Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "TT2"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "TT3",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-TT3-Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "TT3"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "TT4",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-TT4-Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "TT4"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "TT5",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-TT5-Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "TT5"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  },
+  {
+    "name": "TT6",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "OPM01-TT6-Client"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "°C"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OPM01"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "TT6"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueDualSource_OPC"
+  }
+]

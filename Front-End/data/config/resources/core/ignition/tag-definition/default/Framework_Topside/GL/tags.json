@@ -1,0 +1,9 @@
+[
+  {
+    "dataType": "String",
+    "defaultValue": "GL",
+    "name": "AreaName",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  }
+]

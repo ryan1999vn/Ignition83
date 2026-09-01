@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_ValveDialogue_Advanced\n Description       :  Advance tab of Standard Hydraulic Valve dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t19/11/2024\tToan Phan\tFirst created\n0.0.0.1\t06/01/2025\tToan Phan\tModified digit indication of pressure and flow\n0.0.0.2\t16/1/2025\tPhat Truc\tChange Actuator Pressure, Supply Pressure, Return Pressure symbols to ADS symbols\n0.0.0.3\t12/02/2025\tToan Phan\tRe scale the size of status boxes \n0.0.0.4\t18/2/2025\tToan Phan\tAdd Log change/ Event function\n0.0.0.5\t06/03/2025\tToan Phan\tTidy up/ add the description for properties\n0.0.0.6\t23/07/2025\tToan Phan\tResize the dialogue to fit size M\n0.0.0.7\t07/08/2025\tPhat Truc\tAdded binding for ROV_Lock_CfgTag to read the current ROV status from PLC.\n0.0.0.8\t22/08/2025\tToan Phan\tLinked CommsAlarm parameters of Check boxs to Template CommsAlarm",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "db79bf1b89703e162e876afaca1eac7e33d2a6c107b23233540fb4793a39e6df",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-07T08:56:46Z"
+    }
+  }
+}

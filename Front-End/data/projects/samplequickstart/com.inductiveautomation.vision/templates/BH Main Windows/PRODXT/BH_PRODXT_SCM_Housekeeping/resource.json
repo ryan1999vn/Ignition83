@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_SCM_Electrical (Prod XT)\n Description       :   Template for BH_SCM_Electrical (Prod XT)             \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t01/11/2024\tToan Phan\tFirst created\n 0.0.0.1\t24/12/2024\tToan Phan\tUpdate table script for improving loading time\n 0.0.0.2\t04/03/2025\tToan Phan\tAdd Windows Label\n0.0.0.3\t16/05/2025\tToan Phan\tClean up the SEM HSK table as per FDS, replace card voltage table by comms status table",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "42161bf3c7dd788bd084df9536e301491162340f56ed5fa189783ab722492b1d",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

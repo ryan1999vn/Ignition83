@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : \n Description       :   Template for displaying of the process value in table\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t26/12/2024\tToan Phan\tFirst created\n 0.0.0.1\t09/01/2025\tToan Phan\tAdd Show Tag/name function\n 0.0.0.2\t15/01/2025\tToan Phan\tUpdate Show Tag/name function\n 0.0.0.3\t18/01/2025\tToan Phan\tRemove EU config-move to UDT ",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "8894218ff8244d64d2eb45a7137bee5d1ef337581c3430a7b97f0f8532ed9bbc",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

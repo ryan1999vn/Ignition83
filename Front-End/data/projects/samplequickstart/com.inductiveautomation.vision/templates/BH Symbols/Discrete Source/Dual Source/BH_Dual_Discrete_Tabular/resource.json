@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_Dual_Discrete_Tabular\nDescription       :   Template for BH_Dual_Discrete_Tabular\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t14/02/2025\tPhat Truc\tFirst created\n0.0.0.1 \t21/08/2025\tToan Phan\tUpdated binding for PLCCommsFail\n0.0.0.1\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "40f89fc864193bfe92cf7d2f382efd95eddfb55d284c7481e952ca6cf38f9f34",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

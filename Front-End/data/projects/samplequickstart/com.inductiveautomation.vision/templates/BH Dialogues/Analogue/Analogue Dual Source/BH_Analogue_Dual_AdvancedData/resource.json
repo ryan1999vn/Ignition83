@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Analogue_Dual_AdvancedData\n Description       :  Advance tab of Analogue Dual Source dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t18/11/2024\tPhat Truc\tFirst created\n0.0.0.1\t3/1/2025\tPhat Truc\tModify visibility of Auto Arbitration\u0027s Text \n0.0.0.2\t24/1/2025\tToan Phan\tUpdate the logic to always enable numeric entries. Update comm alarm of Auto radio btn\n0.0.0.3\t07/02/2025\tPhat Truc\tAdd OOR_A_AlmActive and OOR_B_AlmActive properties and binding ItemEnabled property of Channel A and Channel B Radio buttons\n0.0.0.4\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.5\t03/03/2025\tToan Phan\tTidy up/ add the description for each property\n0.0.0.6\t01/07/2025\tPhat Truc\tRelocated components\n0.0.0.7\t22/08/2025\tToan Phan\tAdded PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "4ef2a68274c717655c5a721695386c0ffc52391e45943eaac60b017cb3b40f5d",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

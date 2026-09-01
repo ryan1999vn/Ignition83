@@ -1,0 +1,769 @@
+[
+  {
+    "name": "BoardShortCircProtModEnab",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI03.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "BoardShortCircProtModEnab"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "DHPT.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "BoosterOverloaded",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI03.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "BoosterOverloaded"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "DHPT.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "BoosterVoltageHigh",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI03.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "BoosterVoltageHigh"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "DHPT.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "BoosterVoltageLow",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI03.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "BoosterVoltageLow"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "DHPT.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "DownhCableNotConnected",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI03.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "DownhCableNotConnected"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "DHPT.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Gauge1Timeout",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI03.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Gauge1Timeout"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "DHPT.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Gauge2Timeout",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI03.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Gauge2Timeout"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "DHPT.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Gauge3Timeout",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI03.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Gauge3Timeout"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "DHPT.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Gauge4Timeout",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI03.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "Gauge4Timeout"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "DHPT.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "HardwareError",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI03.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "HardwareError"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "DHPT.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "HeartbeatTripped",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI03.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "HeartbeatTripped"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "DHPT.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "OpenLine",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI03.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "OpenLine"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "DHPT.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "ShortLine",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "WI03.DHPT_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "ShortLine"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "DHPT.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  }
+]

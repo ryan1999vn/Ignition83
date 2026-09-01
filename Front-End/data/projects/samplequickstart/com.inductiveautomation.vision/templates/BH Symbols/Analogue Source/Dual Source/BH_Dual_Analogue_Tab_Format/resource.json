@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Dual_Analogue_Tab_Format\n Description       :  Template for BH_Dual_Analogue_Tab_Format\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t01/11/2024\tPhat Truc\tFirst created\n0.0.0.1\t17/1/2025\tPhat Truc\tModified AlarmInhibited expressions\n0.0.0.2\t19/1/2025\tToan Phan\tBinded EngUnit to UDT\n0.0.0.3\t23/1/2025\tPhat Truc\tAdd BH_PopupRectangle template\n0.0.0.4\t14/2/2025\tToan Phan\tUpdate text font size to 12\n0.0.0.5\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.6\t21/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "8ce53d48ff8f1f20ec93f35d6210f0602541ef336deba8b2f33d7269aad6fe9d",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

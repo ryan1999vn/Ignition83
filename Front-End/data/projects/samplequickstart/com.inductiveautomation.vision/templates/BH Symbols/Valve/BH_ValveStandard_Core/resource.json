@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_ValveStandard_Core\n Description       :  Template for BH_ValveStandard_Core\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t19/11/2024\tToan Phan\tFirst created\n 0.0.0.1\t10/01/2024\tToan Phan\tUpdate actuator color by LastCommand\n0.0.0.2\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.3\t25/03/2025\tPhat Truc\tModify Visibility of Label_OpenClose based on CommsAlarm",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "2c4310082f15f28277f47affa3681a4a1015cd2973bb9ac4b699277fa4d19cfa",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_Valve_Dialogue\n Description       :  Standard Hydraulic Valve dialogue\n\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t19/11/2024\tToan Phan\tFirst created\n0.0.0.1\t13/1/2025\tToan Phan\tHide Error boxes when error code \u003d0. Add Open/CloseInterlockEnableMask\n0.0.0.2\t11/02/2025\tPhat Truc\tModified aXes and tagPen properties binding. Bind Pressure EU to Actual Pressure ADS EU\n0.0.0.3\t17/02/2025\tPhat Truc\tChange the height from 600 to 570\n0.0.0.4\t18/2/2025\tToan Phan\tAdd Log change/ Event function\n0.0.0.5\t19/02/2025\tToan Phan\tUpdated event log function\n0.0.0.6\t04/03/2025\tPhat Truc\tChange Error\u0027s descriptions based on CN\n0.0.0.7\t06/03/2025\tToan Phan\tTidy up/ add the description for properties\n0.0.0.8\t29/04/2025\tToan Phan\tAdd binding for Valve Profile tab\n0.0.0.9\t02/05/2025\tToan Phan\tUpdated status box, open profile button for dual SEM selection\n0.0.1.0\t27/05/2025\tPhat Truc\tBinding WorkOver to UDT\n0.0.1.1\t30/05/2025\tPhat Truc\tAdd Max/Min values for Pressure values\n0.0.1.2\t19/06/2025\tHai Pham\tAdd Area, Structure to template parameter to implement BH_ValveError_Popup\n0.0.1.3\t27/06/2025\tToan Phan\tBind the tagpath of Atuator/Supply/Return Pressure to Profile Tab\n0.0.1.4\t01/07/2025\tPhat Truc\tAligned Open/Close button\n0.0.1.5\t03/07/2025\tToan Phan\tChange Interlock tab to bh_Interlock\n0.0.1.6\t04/07/2025\tPhat Truc\tBinding ErrorDataset to UDT\n0.0.1.7\t23/07/2025\tToan Phan\tUpdate the size to M\n0.0.1.8\t22/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "c40fe55091d2de3527e663b275a348695f3d305b8ecfd93eaf06b3064ba8e9ce",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

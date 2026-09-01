@@ -1,0 +1,36 @@
+{
+  "connectURL": "jdbc:sqlserver://DESKTOP-NKQREPT:1433",
+  "connectionProps": "databaseName\u003dHistorianDB",
+  "connectionResetParams": "",
+  "defaultTransactionLevel": "DEFAULT",
+  "driver": "Microsoft SQLServer",
+  "evictionRate": -1,
+  "evictionTests": 3,
+  "evictionTime": 1800000,
+  "failoverMode": "STANDARD",
+  "failoverProfile": "",
+  "includeSchemaInTableName": false,
+  "password": {
+    "data": {
+      "ciphertext": "eM9-RlwiKX3shw",
+      "encrypted_key": "07Clgs6FRQJ7CVBj96SR58Nw9Sfc275Y35aH1JWOC3bipmlCYTxo6g",
+      "iv": "TB0HpdEt7dPUW8Cq",
+      "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzg1MTI0OTI2LCJ6aXAiOiJERUYifQ",
+      "tag": "jTvo9TXjLsUwm_aFZKXW2g"
+    },
+    "type": "Embedded"
+  },
+  "poolInitSize": 0,
+  "poolMaxActive": 8,
+  "poolMaxIdle": 8,
+  "poolMaxWait": 5000,
+  "poolMinIdle": 0,
+  "slowQueryLogThreshold": 60000,
+  "testOnBorrow": true,
+  "testOnReturn": false,
+  "testWhileIdle": false,
+  "translator": "MSSQL",
+  "username": "sysadmin2",
+  "validationQuery": "SELECT 1",
+  "validationSleepTime": 10000
+}

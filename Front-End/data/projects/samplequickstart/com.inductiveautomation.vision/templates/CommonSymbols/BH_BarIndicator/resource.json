@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         :  BH_BarIndicator\n Description       :  Bar Indicator\n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n 0.0.0.0\t18/11/2024\tTruc Phat\t\tFirst modification\n 0.0.0.1\t24/01/2025\tToan Phan \tModify the fill color logic\n 0.0.0.2\t06/02/2025\tPhat Truc \tChange FA to FR for Freeze Alarm shortcut\n 0.0.0.3\t18/032025\tPhat Truc \tChange Data Type of InternalAnalog, InternalAtBottom, InternalAtTop, InternalCalculation parameters from Integer to Float. Remove alarmMostSeverity property. Change BarFillColor expression binding. Replace Progress bar component with Level Indicator component\n 0.0.0.4\t23/042025\tPhat Truc \tModify Level Indicator\u0027s Value expression",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "c0408d8193a1567d7fdcbca82faf2091603a58805afded2fc9b69e96c19d58f0",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

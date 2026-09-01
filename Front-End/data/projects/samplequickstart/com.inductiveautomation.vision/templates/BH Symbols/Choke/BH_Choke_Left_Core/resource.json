@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_Choke_Left_Core\n Description       :  Template for BH_Choke_Left_Core\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t17/11/2024\tToan Phan\tFirst created\n0.0.0.1\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.2\t25/03/2025\tPhat Truc\tModify Visibility of Label_OpenClose based on CommsAlarm and Moving status.",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "8c7a0e93e76ef1c2ffdab4ad50530b369e594187c9245e26772423393407eac6",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

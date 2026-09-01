@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t03/06/2025\tK. Kravchuk/ Toan Phan\tFirst created\n 0.0.0.1\t06/06/2025\tToan Phan\tupdated the color; add the option to indicate different or same color for each well type when well flowing",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "f900f5be2a98f146fe8b52dfc0a14c515d150c8bce37c7308284465f54d36b54",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

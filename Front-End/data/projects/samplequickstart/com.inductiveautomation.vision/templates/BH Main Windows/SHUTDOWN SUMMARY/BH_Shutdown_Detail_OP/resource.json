@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : \n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t12/05/2025\tPhat Truc\tFirst created\n 0.0.0.1\t15/05/2025\tPhat Truc\tUpdate script for dynamic tag path\n 0.0.0.2\t19/05/2025\tPhat Truc\tRemove script for dynamic tag path\n 0.0.0.3\t22/05/2025\tPhat Truc\tAdd DCName property\n 0.0.0.4\t04/07/2025\tPhat Truc\tAdd GLCV symbol to screen",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "7d5e5e58f9c92b17aa98fe9f2b0bdee297cae0fb68f13288b1d0de8296587a88",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

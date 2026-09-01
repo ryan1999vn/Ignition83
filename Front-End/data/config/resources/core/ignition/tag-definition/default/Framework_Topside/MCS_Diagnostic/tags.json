@@ -1,0 +1,39 @@
+[
+  {
+    "dataType": "String",
+    "defaultValue": "MCS",
+    "name": "AreaName",
+    "tagType": "AtomicTag",
+    "valueSource": "memory"
+  },
+  {
+    "alarms": [
+      {
+        "displayPath": "Controller 1A Link Status Fault",
+        "label": "",
+        "name": "Alarm",
+        "priority": "Critical"
+      }
+    ],
+    "dataType": "Boolean",
+    "expression": "{[System]Gateway/OPC/Connections/TcOpcUaServer_ControllerA/Connected.value} \u0026\u0026\r ({[.]Controller1A/DeviceState.value}\u003d288)",
+    "name": "LinkStatus1A",
+    "tagType": "AtomicTag",
+    "valueSource": "expr"
+  },
+  {
+    "alarms": [
+      {
+        "displayPath": "Controller 1B Link Status Fault",
+        "label": "",
+        "name": "Alarm",
+        "priority": "Critical"
+      }
+    ],
+    "dataType": "Boolean",
+    "expression": "{[System]Gateway/OPC/Connections/TcOpcUaServer_ControllerB/Connected.value} \u0026\u0026\r\n({[.]Controller1B/DeviceState.value}\u003d288)",
+    "name": "LinkStatus1B",
+    "tagType": "AtomicTag",
+    "valueSource": "expr"
+  }
+]

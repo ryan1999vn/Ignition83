@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_Schlumberger_DHPT_Gauge_Tab\nDescription       :   Template for BH_Schlumberger_DHPT_Gauge_Tab\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t25/11/2024\tPhat Truc\tFirst created\n0.0.0.1\t07/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.2\t25/03/2025\tPhat Truc\tChange label from Gauge Signal Voltage to Signal Voltage. Remove GaugeNumber parameter",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "9985d7e74384afc9f9b4147dcaef8102432f2704ce52ec82cfd3d32842f88758",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

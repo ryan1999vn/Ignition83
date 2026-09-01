@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_Discrete_Dual_Dialogue\nDescription       :  Dual Source Discrete dialogue\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t14/02/2025\tPhat Truc\tFirst created\n0.0.0.1\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.2\t06/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.3\t25/03/2025\tPhat Truc\tAlarming Enabled/Disabled text is hidden if the alarm is not configured.\n0.0.0.4\t09/07/2025\tPhat Truc\tAdjusted dialogue size\n0.0.0.5\t22/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "5e5e4b21134487c34d00b8be9b6e7402b5ba662a8125501f57eddd0b75b6283f",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

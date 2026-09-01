@@ -1,0 +1,121 @@
+[
+  {
+    "name": "ASD",
+    "parameters": {
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "GlobalShutdown"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ShutdownName": {
+        "dataType": "String",
+        "value": "ASD"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "GlobalShutdown"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "Shutdown_OPC",
+    "tags": [
+      {
+        "name": "Input",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ShutdownName}.SDTrigger"
+        },
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "OPName",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
+        "name": "Status",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "nsu\u003durn:BeckhoffAutomation:Ua:{PLCName};s\u003d{UMBName}.{OPName}.{ShutdownName}.Status"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "ESD1",
+    "parameters": {
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "GlobalShutdown"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ShutdownName": {
+        "dataType": "String",
+        "value": "ESD1"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "GlobalShutdown"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "Shutdown_OPC",
+    "tags": [
+      {
+        "name": "OPName",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      }
+    ]
+  },
+  {
+    "name": "ExclusionTimer",
+    "parameters": {
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "GlobalShutdown"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "ShutdownName": {
+        "dataType": "String",
+        "value": "ExclusionTimer"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "GlobalShutdown"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "ShutdownTimeExclusion_OPC"
+  }
+]

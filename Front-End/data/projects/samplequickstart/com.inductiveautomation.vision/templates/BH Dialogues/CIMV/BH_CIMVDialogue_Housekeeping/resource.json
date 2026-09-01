@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_CIMVDialogue_Housekeeping\n Description       : Housekeeping tab of Skoflo CIMV Dialogue              \n Revision History  :\n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t24/10/2024\tToan Phan\tFirst created\n 0.0.0.1\t12/01/2025\tToan Phan\tChange Warning field to Discrete Single\n 0.0.0.2\t20/01/2025\tToan Phan\tHide error code\n0.0.0.3\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.4\t05/03/2025\tToan Phan\tTidy up/ add the description for each property\n0.0.0.5\t25/03/2025\tPhat Truc\tUpdate description for unknown status of \"General State Status Box\" and \"Supplemental Valve Status Box\" to \"Unknown Status\"\n0.0.0.6\t07/08/2025\tPhat Truc \tEnable Display_EU of HSK data\nBH Dialogues/CIMV/BH_CIMVDialogue_Config\n0.0.0.7\t25/08/2025\tToan Phan\tLink the CommsAlarms parameter of boxes to the template PLCCommsFail\t",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "e0c105c550781fed9c813c74639048e08dca588395a71ee17356be45d71fa280",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

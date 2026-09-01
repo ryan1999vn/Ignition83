@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_SMU_APCM\n Description       :   Template for EPU SMU (APCM) Screen        \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t12/03/2025\tK. Kravchuk\tFirst created\n 0.0.0.1\t06/06/2025\tToan Phan\tUpdated tag binding; rtidy up and update layout\n 0.0.0.2\t18/06/2025\tToan Phan\tAligned the boxes",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "fe660ea44ce3145b3ce2883bd5b4a6b979e567aa862ca32bd164ad6ac995b6d5",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

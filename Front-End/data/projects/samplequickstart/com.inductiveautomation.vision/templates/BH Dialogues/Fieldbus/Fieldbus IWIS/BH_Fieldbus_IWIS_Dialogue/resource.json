@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_Fieldbus_IWIS_Dialogue\n Description       : Fieldbus IWIS dialogue  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t11/02/2025\tToan Phan\tFirst created\n 0.0.0.1\t18/02/2025\tToan Phan\tUpdate the button enable logic\n 0.0.0.2\t19/02/2025\tToan Phan\tAdd event log function\n 0.0.0.3\t10/03/2025\tToan Phan\tTidy up/ add the description for properties\n 0.0.0.4\t21/08/2025\tPhat Truc\tSet TrendConfigured to False",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "f7b55c744f2d1ef0ad3f1bad5c3b3d3956ee18588927ec424f5fc93979ffa89f",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

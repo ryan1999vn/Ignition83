@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_PRODMNF_SCM_Electrical\n Description       :   Template for BH_PRODMNF_SCM_Electrical\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t16/03/2025\tPhat Truc\tFirst created\n 0.0.0.1\t05/06/2025\tPhat Truc\tUpdate Fieldbus Control table based on XML file",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "5dd3ed05bd6a7793b321406a8499e5ef857209076e679761a821c6320cbad1a4",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_StatusBox_Short\n Description       :  BH_StatusBox_Short\n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n 0.0.0.0\t18/11/2024\tTruc Phat\t\tFirst modification\n0.0.0.1\t06/02/2025\tPhat Truc\tAdd Alarm Indicator\n0.0.0.2\t14/02/2025\tToan Phan\t\tChange font size to 12\n0.0.0.3\t12/03/2025\tPhat Truc\tTidy up/ add the description for each property",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "22f46d112460e8d36282d9477398f57ae3479b23175a916ce1f86453c2df5b9c",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

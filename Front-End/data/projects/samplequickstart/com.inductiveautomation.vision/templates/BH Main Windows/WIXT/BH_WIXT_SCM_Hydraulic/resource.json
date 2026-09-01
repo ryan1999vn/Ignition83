@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_SCM_Hydraulic (Prod XT)\n Description       :   Template for BH_SCM_Hydraulic (Prod XT)             \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t18/12/2024\tPhat Truc\tFirst created\n 0.0.0.1\t11/07/2025\tPhat Truc\tAdd interlock L setpoints for supply and consolidated pressure",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "7c4e7801f1eef7adb1d3977c4769785f16bc9bf2ec5ef788e6dd11f3b68a5b66",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

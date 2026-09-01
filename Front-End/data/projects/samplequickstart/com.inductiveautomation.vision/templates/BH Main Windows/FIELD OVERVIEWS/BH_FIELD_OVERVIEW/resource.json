@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_Field_Overview\n Description       :  \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t03/06/2025\tK. Kravchuk/ Toan Phan\tFirst created\n0.0.0.1\t06/06/2025\tToan Phan\tUpdated legend, combined all flowing mode (gas/water/prod) into one; updated not flowing and OOS color\n0.0.0.2\t07/08/2025\tPhat Truc\tCorrected RowIdInDS for PCDM2",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "83abf6bd1e773376b8e6c54c88ea36f11f8a56f80ede2d5949213bc34d38d804",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-07T08:56:40Z"
+    }
+  }
+}

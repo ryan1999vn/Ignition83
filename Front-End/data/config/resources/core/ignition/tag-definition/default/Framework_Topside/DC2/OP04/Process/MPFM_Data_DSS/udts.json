@@ -1,0 +1,1277 @@
+[
+  {
+    "name": "AlarmsA",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "AlarmsA"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "AlarmsB",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "AlarmsB"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "AquawatcherA_Status",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "AquawatcherA_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "AquawatcherB_Status",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "AquaWatcherB_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "DAFC_Selection_Mismatch",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "DAFC_Selection_Mismatch"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "DP_Selection_Mismatch",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "DP_Selection_Mismatch"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Area",
+        "sourceTagPath": "[.]../../../../AreaName",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      },
+      {
+        "name": "Structure",
+        "sourceTagPath": "[.]../../../StructureName",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "DPA_FCA_Status",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "DPA_FCA_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "DPA_FCB_Status",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "DPA_FCB_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "DPB_FCA_Status",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "DPB_FCA_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "DPB_FCB_Status",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "DPB_FCB_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "MixtureVelocityAtThroat",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "m/s"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "MixtureVelocityAtThroat"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "PL_Selection_Mismatch",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PL_Selection_Mismatch"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "PLA_FCA_Status",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PLA_FCA_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "PLA_FCB_Status",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PLA_FCB_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "PLB_FCA_Status",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PLB_FCA_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "PLB_FCB_Status",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "PLB_FCB_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "TL_Selection_Mismatch",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "TL_Selection_Mismatch"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "TLA_FCA_Status",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "TLA_FCA_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "TLA_FCB_Status",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "TLA_FCB_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "TLB_FCA_Status",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "TLB_FCA_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "TLB_FCB_Status",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "TLB_FCB_Status"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "WarningsA",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "WarningsA"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  },
+  {
+    "name": "WarningsB",
+    "parameters": {
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "DiscreteStatusFalse": {
+        "dataType": "String",
+        "value": "Not Active"
+      },
+      "DiscreteStatusTrue": {
+        "dataType": "String",
+        "value": "Active"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP04.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "WarningsB"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "DiscreteSingleSource_OPC",
+    "tags": [
+      {
+        "name": "SensorName",
+        "tagType": "AtomicTag",
+        "value": {
+          "bindType": "parameter",
+          "binding": "MPFM.{SensorName}"
+        }
+      }
+    ]
+  }
+]

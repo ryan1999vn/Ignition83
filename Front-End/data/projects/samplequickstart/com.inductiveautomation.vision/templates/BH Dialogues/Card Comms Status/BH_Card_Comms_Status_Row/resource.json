@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_Card_Comms_Status_Row\n Description       :  Template for row used in the card comms status table\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t16/05/2025\tToan Phan\tFirst created\n0.0.0.1\t04/06/2025\tToan Phan\tReplace TagPathDataset by SEMCardsList and folderTagPath\n0.0.0.2\t31/07/2025\tPhat Truc\tUpdated MinSecurityLevel to 2\n0.0.0.3\t11/08/2025\tToan Phan\tUpdate CommsStatus text to show OffScan status\n0.0.0.4\t27/08/2025\tPhat Truc\tAdded PLCCommsFail properties and linked symbols\u0027 CommsAlarm\n0.0.0.5\t27/08/2025\tPhat Truc\tRemoved CommBad from CommsAlarm binding ",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "b18bd4e2fe88fe2321055ca75eeb482ade04c70282f652c3b5e6b0d4805a4206",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

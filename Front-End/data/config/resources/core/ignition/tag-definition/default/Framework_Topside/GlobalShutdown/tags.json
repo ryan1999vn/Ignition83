@@ -1,0 +1,18 @@
+[
+  {
+    "dataType": "Boolean",
+    "name": "CmdResetAllShutdown",
+    "opcItemPath": "nsu\u003durn:BeckhoffAutomation:Ua:PLC1;s\u003dGlobalShutdown.GlobalShutdown.CmdResetAllShutdown",
+    "opcServer": "TcOpcUaServer@Controller",
+    "tagType": "AtomicTag",
+    "valueSource": "opc"
+  },
+  {
+    "dataType": "Boolean",
+    "name": "ShutdownExcluded",
+    "opcItemPath": "nsu\u003durn:BeckhoffAutomation:Ua:PLC1;s\u003dGlobalShutdown.GlobalShutdown.ShutdownExcluded",
+    "opcServer": "TcOpcUaServer@Controller",
+    "tagType": "AtomicTag",
+    "valueSource": "opc"
+  }
+]

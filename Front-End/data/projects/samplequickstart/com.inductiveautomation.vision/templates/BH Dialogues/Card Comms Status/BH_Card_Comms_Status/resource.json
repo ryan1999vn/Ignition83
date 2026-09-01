@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_Card_Comms_Status\n Description       :  Template for card comms status popup\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t16/05/2025\tToan Phan\tFirst created\n0.0.0.1\t04/06/2025\tToan Phan\tReplace TagPathDataset by SEMCardsList and folderTagPath",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "317379035679e0a2ff4b8aaeddcdfdbe7b9bbbb1102c925e66c00c250e81f82e",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

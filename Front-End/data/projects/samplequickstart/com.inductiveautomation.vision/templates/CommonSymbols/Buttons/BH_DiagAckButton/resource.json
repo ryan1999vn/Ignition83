@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_DiagAckButton\n Description       :  Template for BH_DiagAckButton\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t11/11/2024\tToan Phan\tFirst created\n0.0.0.1\t24/01/2025\tPhat Truc\tRemove Alarm Acked message popup\n0.0.0.2\t17/02/2025\tPhat Truc\tModify dimensions of template\n0.0.0.3\t18/2/2025\tHai Pham\tAdd Log change function\n0.0.0.4\t11/03/2025\tToan Phan\t\tFixed the event tag path  when selecting Acknowledge button (to allow the event query)\n0.0.0.5\t12/03/2025\tPhat Truc\tTidy up/ add the description for each property",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "60e405c68302945936243cc6cc642d97966ffad9b66de47fee16dc96280862d8",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

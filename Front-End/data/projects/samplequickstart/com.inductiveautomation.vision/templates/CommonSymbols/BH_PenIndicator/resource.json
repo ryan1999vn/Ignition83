@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2024 Baker Hughes Company\n File Name         : BH_PenIndicator\n Description       :  Template for BH_PenIndicator\n Revision History  : \n Version\tDate\tAuthor\t\tComments\n ---------------------------------------------------------------------------------------------------------\n 0.0.0.0\t18/11/2024\tPhat Truc\tFirst modification\n 0.0.0.1\t11/02/2025\tPhat Truc\tChange Color of Checkbox. Extend the length of Text\n0.0.0.2\t12/03/2025\tPhat Truc\tTidy up/ add the description for each property",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "cd4a7ef8775d7edbad120c6ef6d0760517e94869bcdadf802fa717f6f5976551",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

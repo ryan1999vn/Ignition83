@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_SMU_Communication\n Description       :  This is the template for SMU Comms Overview screen. By default this screen is configured for 8 SMUs. Unused SMUs shall be removed if necessary. SMU is an object, any additional one can be added by copy-pasting existing object and adding 2 extra external parameters (SMUxName, SMUxTagPath) to the template. \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t13/03/2025\tK. Kravchuk\tFirst created\n 0.0.0.1\t06/06/2025\tToan Phan\tUpdated tag binding; rtidy up and update layout\n 0.0.0.2\t26/08/2025\tToan Phan\tUpdated the table using new row template\n 0.0.0.3\t27/08/2025\tToan Phan\tAdded Parameter SMUModuleAmount",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "632d637ddb8aad2ed940f13267e1afbf50666bfc8e235d816880bc2275c4d2a3",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+# ==========================================
+# Ignition runtime databases
+# ==========================================
+**/db/
+**/metricsdb/
+**/autobackup/
+**/db_backup_sqlite.idb
+**/valueStore.idb
+
+# ==========================================
+# Runtime data, including Core Historian
+# ==========================================
+**/var/
+
+# ==========================================
+# Cache and temporary files
+# ==========================================
+**/jar-cache/
+**/request
+**/response
+*.tmp
+*.bak
+*.swp
+*.lock
+
+# ==========================================
+# Log files
+# ==========================================
+*.log
+**/logs/
+
+# ==========================================
+# Certificates, keystores and private keys
+# ==========================================
+**/certificates/
+**/keystore/
+*.pfx
+*.p12
+*.jks
+*.pem
+*.key
+
+# ==========================================
+# Machine-specific local configuration
+# ==========================================
+**/config/local/
+**/config/resources/local/
+
+# ==========================================
+# Gateway runtime files
+# ==========================================
+**/.container-init.conf
+**/.alarms_*
+
+# ==========================================
+# Generated conversion and migration files
+# ==========================================
+**/conversion-report.txt
+**/projects/conversion-report.txt
+**/migration-log-*.md
+**/.resources/
+**.digest.json
+
+# ==========================================
+# Gateway Backup files
+# ==========================================
+*.gwbk
+
+# ==========================================
+# Windows and development tools
+# ==========================================
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

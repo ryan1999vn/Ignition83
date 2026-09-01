@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_ClampOn_ASD_PID\nDescription       :   Template for BH_ClampOn_ASD_PID\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t29/10/2024\tPhat Truc\tFirst created\n0.0.0.1\t04/02/2025\tPhat Truc\tAdd BH_PopupRectangle template\n0.0.0.2\t07/02/2025\tPhat Truc\tUpdate comms alarm binding\n0.0.0.3\t11/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.4 \t21/08/2025\tToan Phan\tUpdated binding for PLCCommsFail",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "droptarget.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "05bb418c6e90faa2ec815e4cd72b18d9b6827d7b852e10449e68c42b40c38f1f",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:57Z"
+    }
+  }
+}

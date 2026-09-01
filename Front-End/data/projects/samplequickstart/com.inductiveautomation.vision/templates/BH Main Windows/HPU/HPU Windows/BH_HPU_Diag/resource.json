@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_HPU_IOMonitoring_Diagnostics\n Description       :   \n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t01/05/2025\tT.Phan/ M.Abdelgawad\tFirst created\n 0.0.0.1\t20/08/2025\tToan Phan\tUpdated NotFoundText of KeySwStatus and CPUStatus boxes to \"Undefined\"",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "37752573e854d69c1e22fea8369f10d59fe670a52b6902e3787e63f38158af78",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

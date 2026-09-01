@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_PCVM_Monitoring\n Description       :  BH_PCVM_Monitoring\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t08/06/2025\tPhat Truc\tFirst created\n 0.0.0.1\t25/08/2025\tToan Phan\tRearrange the tables of VM by host allocation",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "fbec2f36b04c1b0b2e970cbd6c3753441100e9376444a2d7be718626aac36ed5",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

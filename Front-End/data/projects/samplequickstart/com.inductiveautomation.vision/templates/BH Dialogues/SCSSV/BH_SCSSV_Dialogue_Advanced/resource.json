@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": "Copyright         : 2024 Baker Hughes Company\nFile Name         : BH_SCSSVDialogue_Advanced\nDescription       :   Template for BH_SCSSV_Dialogue_Advanced\nRevision History  : \nVersion\tDate\tAuthor\tComments\n------------------------------------------------------------------------------------\n0.0.0.0\t28/05/2025\tPhat Truc/ Toan Phan\tFirst created\n0.0.0.1\t19/08/2025\tPhat Truc\tAdded binding for ROV_Lock_CfgTag to read the current ROV status from PLC.\n0.0.0.2\t22/08/2025\tPhat Truc\tAdded DCV1_Enabled, DCV2_Enabled, DCVSelection properties\nAdded PLCcommsFail and link to the CommsAlarm of radio buttons\nand check boxes\n",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "a563cfa87fa58f93d5f7505a0059e3c9056786fca7626b041ca90e36e092b569",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

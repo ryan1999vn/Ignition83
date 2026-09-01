@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : BH_Choke_Dialogue\n Description       :  Choke Dialogue\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n0.0.0.0\t17/11/2024\tToan Phan\tFirst created\n0.0.0.1\t7/1/2025\tPhat Truc\tRemove CommsAlarm bindings of Position Request and Number of Steps to move Setpoints.\n0.0.0.2\t13/1/2025\tToan Phan\tHide Error boxes when error code \u003d0. Add Open/CloseInterlockEnableMask\n0.0.0.3\t19/1/2025\tToan Phan\tUpdated error table\n0.0.0.4\t11/02/2025\tPhat Truc\tModified aXes and tagPen properties binding. Bind Pressure and Position EU to ADS EU\n0.0.0.5\t17/02/2025\tPhat Truc\tChange the height from 600 to 570\n0.0.0.6\t19/02/2025\tToan Phan\tAdd event log function\n0.0.0.7\t04/03/2025\tPhat Truc\tChange Error\u0027s descriptions based on CN\n0.0.0.8\t04/03/2025\tPhat Truc\tTidy up/ add the description for each property\n0.0.0.9\t27/05/2025\tPhat Truc\tBinding WorkOver to UDT\n0.0.1.0\t29/05/2025\tPhat Truc\tAdd HMI_IsNotPOC property\n0.0.1.1\t30/05/2025\tPhat Truc\tAdd Max/Min values for Pressure values\n0.0.1.2\t26/06/2025\tToan Phan\tAdd Error View button\t\n0.0.1.3\t03/07/2025\tToan Phan\tChange Interlock tab to bh_Interlock\n0.0.1.4\t04/07/2025\tPhat Truc\tBinding ErrorDataset to UDT\n0.0.1.5\t23/07/2025\tToan Phan\tResize the dialogue to fit size M\n0.0.1.6\t05/08/2025\tPhat Truc\tBinding CurrentSecurityLevel of Stop Choke button to SecurityLevel property",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "template.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "0ca61ab6602897fff72ff53c44e0746460898beb921b2a5d8f593d62437c2daa",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-08-03T03:55:58Z"
+    }
+  }
+}

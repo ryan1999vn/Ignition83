@@ -1,0 +1,17 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json",
+    "sample-components.svg"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "quickstart",
+      "timestamp": "2026-07-22T09:31:02Z"
+    },
+    "lastModificationSignature": "514bee57c820495b4b35f73fe4c3837d34a08049ce0310d5e3b624be4e110a60"
+  }
+}

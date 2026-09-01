@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "quick-start.png"
+  ],
+  "attributes": {
+    "size": 34476,
+    "lastModificationSignature": "9ac71280e52e593667cc652d774530b1edc4007790a190692165fde06d948129",
+    "width": -1,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "quickstart",
+      "timestamp": "2026-07-22T09:31:02Z"
+    },
+    "height": -1
+  }
+}

@@ -1,0 +1,157 @@
+[
+  {
+    "name": "VolFlowRateGasSC",
+    "parameters": {
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "m3/d"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP02.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "VolFlowRateGasSC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Alarm_Out",
+        "tagType": "Folder",
+        "tags": [
+          {
+            "name": "INV_Alm",
+            "tagType": "AtomicTag",
+            "value": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "VolFlowRateOilSC",
+    "parameters": {
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "m3/d"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP02.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "VolFlowRateOilSC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC"
+  },
+  {
+    "name": "VolFlowRateWaterSC",
+    "parameters": {
+      "AlarmPriorityOOR": {
+        "dataType": "Integer",
+        "value": 4
+      },
+      "ClientTagName": {
+        "dataType": "String",
+        "value": "C.T"
+      },
+      "EngUnit": {
+        "dataType": "String",
+        "value": "m3/d"
+      },
+      "HistorianSource": {
+        "dataType": "String",
+        "value": "HISTORIAN"
+      },
+      "OPCName": {
+        "dataType": "String",
+        "value": "TcOpcUaServer@Controller"
+      },
+      "OPName": {
+        "dataType": "String",
+        "value": "OP02.MPFM_Data_ASS"
+      },
+      "PLCName": {
+        "dataType": "String",
+        "value": "PLC1"
+      },
+      "SensorName": {
+        "dataType": "String",
+        "value": "VolFlowRateWaterSC"
+      },
+      "UMBName": {
+        "dataType": "String",
+        "value": "UMB_01"
+      }
+    },
+    "tagType": "UdtInstance",
+    "typeId": "AnalogueSingleSource_OPC",
+    "tags": [
+      {
+        "name": "Alarm_Out",
+        "tagType": "Folder",
+        "tags": [
+          {
+            "name": "INV_Alm",
+            "tagType": "AtomicTag",
+            "value": false
+          }
+        ]
+      }
+    ]
+  }
+]
