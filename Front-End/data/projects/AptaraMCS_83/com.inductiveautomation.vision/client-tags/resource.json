@@ -1,0 +1,16 @@
+{
+  "scope": "C",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "tags.xml"
+  ],
+  "attributes": {
+    "lastModificationSignature": "b7b3e89c4d0cc6989a9b4ec03e11182ab2f0e962fabcab739f97f65b251e309d",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-09-01T08:39:24Z"
+    }
+  }
+}

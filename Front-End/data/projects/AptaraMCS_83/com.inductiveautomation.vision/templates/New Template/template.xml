@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects framework.version="8.3.9.2026082511" com.inductiveautomation.vision.version="12.3.9.0" timestamp="Tue Sep 01 01:39:24 PDT 2026">
+	<c cls="com.inductiveautomation.factorypmi.application.components.template.VisionTemplate">
+		<c-comm>
+			<p2df>200.0;200.0</p2df>
+			<r2dd>0.0;0.0;200.0;200.0</r2dd>
+			<str>New Template</str>
+			<lc>-;-;16;1;-;-</lc>
+		</c-comm>
+		<c-c m="setChildrenForSerialization" s="1;java.util.List">
+			<arraylist len="1">
+				<c cls="com.inductiveautomation.factorypmi.application.components.PMITextArea">
+					<c-comm>
+						<p2df>99.0;93.0</p2df>
+						<r2dd>51.0;33.0;99.0;93.0</r2dd>
+						<str>Text Area</str>
+						<lc>51.0;33.0;16;0;0.121212125;0.12903225</lc>
+					</c-comm>
+				</c>
+			</arraylist>
+		</c-c>
+		<c-c m="setInteractionController" s="1;com.inductiveautomation.factorypmi.application.binding.InteractionController"><o cls="com.inductiveautomation.factorypmi.application.binding.DefaultInteractionController"/></c-c>
+	</c>
+</objects>
