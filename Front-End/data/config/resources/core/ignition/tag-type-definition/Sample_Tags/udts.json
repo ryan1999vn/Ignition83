@@ -1,6 +1,6 @@
 [
   {
-    "documentation": " Copyright         : 2025 Baker Hughes Company\n File Name         : AnalogueDualSource_OPC\n Description       :  UDT for Analogue Dual Source OPC\n Revision History  : \n Version\tDate\tAuthor\tComments\n ------------------------------------------------------------------------------------\n 0.0.0.0\t18/11/2024\tToan Phan\tFirst created\n 0.0.0.1\t17/01/2025\tHai Pham/ Toan Phan\tAdded Tag Group, EngUnit. Tidy Up unused tags\n 0.0.0.2\t03/02/2025\tPhat Truc\tAdded InputIsEng\n 0.0.0.3\t21/02/2025\tToan Phan\tAdded script for new event function, remove diagnostic alarms\n 0.0.0.4\t06/03/2025\tToan Phan\tAdded tag description tooltip section\n 0.0.0.5\t06/04/2025\tToan Phan\tAdded parameters for alarm priority configuration\n 0.0.0.6\t10/04/2025\tToan Phan\tFixed DA alarm priority configuration\n 0.0.0.7\t13/05/2025\tPhat Truc\tChange History Sample mode to Tag Group\n 0.0.0.8\t04/06/2025\tPhat Truc\tUpdate reference to Area and Structure Name tags\n 0.0.0.9\t06/06/2025\tPhat Truc\tUpdate Alarm Descriptions, Initial value HISTORIAN for HistorianSource parameter",
+    "documentation": "",
     "name": "AnalogueDualSource_OPC",
     "parameters": {
       "AlarmGroup": {
@@ -1339,9 +1339,24 @@
     "typeId": null,
     "tags": [
       {
+        "alarms": [
+          {
+            "name": "Alarm"
+          }
+        ],
+        "name": "New alarm tag",
+        "tagType": "AtomicTag",
+        "valueSource": "memory"
+      },
+      {
         "name": "New Folder",
         "tagType": "Folder",
         "tags": [
+          {
+            "name": "Memory tag",
+            "tagType": "AtomicTag",
+            "valueSource": "memory"
+          },
           {
             "dataType": "Float8",
             "name": "Ramp0",
@@ -1351,22 +1366,19 @@
             "valueSource": "opc"
           }
         ]
-      },
-      {
-        "alarms": [
-          {
-            "name": "Alarm"
-          }
-        ],
-        "name": "New Tag",
-        "tagType": "AtomicTag",
-        "valueSource": "opc"
       }
     ]
   },
   {
     "name": "New Type 1",
     "tagType": "UdtType",
-    "typeId": null
+    "typeId": null,
+    "tags": [
+      {
+        "name": "New OPC Tag",
+        "tagType": "AtomicTag",
+        "valueSource": "opc"
+      }
+    ]
   }
 ]
